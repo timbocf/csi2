@@ -313,7 +313,7 @@ textarea {
 	vertical-align: baseline; /* Improves appearance and consistency in all browsers */
 }
 
-button,
+/*button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
@@ -324,21 +324,21 @@ input[type="submit"] {
 	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
 	color: rgba(0, 0, 0, .8);
 	cursor: pointer; /* Improves usability and consistency of cursor style between image-type 'input' and others */
-	-webkit-appearance: button; /* Corrects inability to style clickable 'input' types in iOS */
-	font-size: 12px;
-	font-size: 1.2rem;
+	/*-webkit-appearance: button;  Corrects inability to style clickable 'input' types in iOS */
+	/*font-size: 12px;*/
+	/*font-size: 1.2rem;
 	line-height: 1;
 	padding: .6em 1em .4em;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-}
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);*/
+/*}*/
 
-button:hover,
+/*button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
 	border-color: #ccc #bbb #aaa;
 	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
-}
+}*/
 
 button:focus,
 input[type="button"]:focus,
@@ -816,6 +816,23 @@ div {
 	font-weight: 900;
 	/*font-size: 1.1em;*/
 	font-family: Arial, Helvetica, sans-serif;
+}
+
+.search {
+	margin-top: 1em;
+}
+
+.search input {
+	/*background: #333;*/
+	border: 0;
+	/*padding: 0;*/
+	/*margin: 0;*/
+}
+
+.search button {
+	background: #d2232e;
+	color: #fff;
+	/*height: 2em;*/
 }
 
 .header-phone-social {

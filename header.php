@@ -73,9 +73,9 @@
 
 				<div class="row">
 
-					<div class="col-md-6 col-md-offset-6">
+					<div class="search col-md-6 col-md-offset-6">
 
-						<input type="text" value="Search Here"><button class="btn">Search</button>
+						<input type="text" value="Search Here"><button>Search</button>
 
 					</div>
 

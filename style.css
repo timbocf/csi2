@@ -426,7 +426,7 @@ a:visited {
 a:hover,
 a:focus,
 a:active {
-	color: midnightblue;
+	/*color: midnightblue;*/
 }
 
 /*--------------------------------------------------------------
@@ -934,4 +934,35 @@ input[type="search"]:focus {
 	width: 100%;
 	border-top: 1px solid #e8bb13;
 	border-bottom: 1px solid #e8bb13;
+}
+
+.navbar, 
+.nav, 
+.navbar-nav, 
+.navbar-header, 
+.navbar a {
+	min-height: 45px !important;
+	background: transparent;
+	color: #fff;
+	padding-top: 0 !important;
+}
+
+.navbar .menu ul {
+	list-style-type: none;
+	margin-left: -2em;
+	text-indent: 0;
+}
+
+.navbar .menu li {
+	float: left;
+	padding-right: 1em;
+}
+
+.navbar a {
+	padding-top: 10px !important;
+}
+
+.navbar a:hover {
+	background: transparent !important;
+	color: #d8d5d5;
 }

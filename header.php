@@ -33,7 +33,37 @@
 
 			</div>
 
-			<div class="address col-md-2"><?php  // ADDRESS GOES HERE ?></div>
+			<div class="address col-md-2">
+
+				<ul>
+
+					<?php 
+
+						$args = array(
+
+							'post_type' => 'addresses',
+
+							'posts_per_page' => -1
+
+						);
+
+						$query = new WP_Query($args);
+
+						while($query->have_posts() ) {
+
+							$query->the_post();
+
+							if(the_title() === 'Home Office') :
+						}
+
+					?>
+					<li><?php the_cfc_field('addresses', 'street-address') ?></li>
+					<li><?php the_cfc_field('addresses', 'apt-suite-unit') ?></li>
+					<li><?php the_cfc_field('addresses', 'city-state-zip') ?></li>
+
+					<?php } wp_reset_postdata(); ?>
+				</ul>
+			</div>
 
 			<!-- <div class="col-md-2"></div> -->
 

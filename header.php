@@ -71,6 +71,16 @@
 
 				<img src="<?php bloginfo('template_directory') ?>/images/30-yrs-xp.png" alt="30+ years experience" title="30+ years experience">
 
+				<div class="row">
+
+					<div class="col-md-6 col-md-offset-6">
+
+						<input type="text" value="Search Here"><button class="btn">Search</button>
+
+					</div>
+
+				</div>
+
 			</div>
 
 		</div>

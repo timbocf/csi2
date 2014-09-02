@@ -50,7 +50,7 @@
 
 				<a href="tel:18886390388">
 
-					<img src="<?php bloginfo('template_directory') ?>/images/phone-number-link.png" alt="1-888-639-0388" title="1-888-639-0388">
+					<img src="<?php bloginfo('template_directory') ?>/images/header-phone-link.png" alt="1-888-639-0388" title="1-888-639-0388">
 
 				</a>
 

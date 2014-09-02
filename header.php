@@ -45,9 +45,9 @@
 
 		</div>
 
-		<div class="row">
+		<div class="row header-phone-social">
 
-			<div class="col-md-5">
+			<div class="col-md-3">
 
 				<a href="tel:18886390388">
 

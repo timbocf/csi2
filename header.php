@@ -73,9 +73,15 @@
 
 				<div class="row">
 
-					<div class="search col-md-6 col-md-offset-6">
+					<div class="searchform col-md-6 col-md-offset-6">
 
-						<input type="text" value="Search Here"><button>Search</button>
+						<form>
+
+							<input type="search" class="search" placeholder="Search Here" required>
+
+							<input type="button" class="button" value="Search">
+
+						</form>
 
 					</div>
 

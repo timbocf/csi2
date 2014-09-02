@@ -49,19 +49,19 @@
 
 						$query = new WP_Query($args);
 
-						while($query->have_posts() ) {
+						while($query->have_posts() ) :
 
 							$query->the_post();
 
-							if(the_title() === 'Home Office') :
-						}
+							if(get_the_title() === 'Head Office') :
 
 					?>
-					<li><?php the_cfc_field('addresses', 'street-address') ?></li>
-					<li><?php the_cfc_field('addresses', 'apt-suite-unit') ?></li>
-					<li><?php the_cfc_field('addresses', 'city-state-zip') ?></li>
 
-					<?php } wp_reset_postdata(); ?>
+					<li><?php the_cfc_field('address', 'street-address') ?></li>
+					<li><?php the_cfc_field('address', 'aptsuiteunit') ?></li>
+					<li><?php the_cfc_field('address', 'city-state-zip') ?></li>
+
+					<?php endif; endwhile; wp_reset_postdata(); ?>
 				</ul>
 			</div>
 

@@ -28,7 +28,7 @@
 
 			<div class="logo col-md-4">
 
-				<img src="<?php bloginfo('template_directory') ?>/wp-content/themes/csi2/images/csi-logo.png" alt="Construction Strategies Inc" title="Construction Strategies Inc">
+				<img src="<?php bloginfo('template_directory') ?>/images/csi-logo.png" alt="Construction Strategies Inc" title="Construction Strategies Inc">
 
 			</div>
 
@@ -38,7 +38,7 @@
 
 			<div class="col-md-4">
 
-				<img src="<?php bloginfo('template_directory') ?>/wp-content/themes/csi2/images/30-yrs-xp.png" alt="30+ years experience" title="30+ years experience">
+				<img src="<?php bloginfo('template_directory') ?>/images/30-yrs-xp.png" alt="30+ years experience" title="30+ years experience">
 
 			</div>
 

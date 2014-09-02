@@ -795,11 +795,27 @@ object {
 
 
 /*--------------------------------------------------------------
-13.0 Galleries
+13.0 CUSTOM STYLES BY 5PINTS DEVELOPMENT GILBERT AZ
 --------------------------------------------------------------*/
 
 body {
 	padding-top: 2em;
+}
+
+/** HEADER **/
+
+div {
+	border: 1px solid #eee;
+}
+
+.address ul {
+	list-style-type: none;
+	margin-left: 0;
+	padding-top: 2.5em;
+	text-indent: -1em;
+	font-weight: 900;
+	/*font-size: 1.1em;*/
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .header-phone-social {

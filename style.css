@@ -866,3 +866,7 @@ input[type="search"]:focus {
 .header-phone-social {
 	padding-top: 2em;
 }
+
+.social {
+	background: url(images/social.png) no-repeat;
+}

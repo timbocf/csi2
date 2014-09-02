@@ -103,6 +103,50 @@
 
 			</div>
 
+			<div class="social col-md-2">
+
+				<ul>
+
+					<li>
+
+						<a href="#todo">Careerbuilder</a>
+
+					</li>
+
+					<li>
+
+						<a href="#todo">Facebook</a>
+
+					</li>
+
+					<li>
+
+						<a href="#todo">Twitter</a>
+
+					</li>
+
+					<li>
+
+						<a href="#todo">Google+</a>
+
+					</li>
+
+					<li>
+
+						<a href="#todo">Email</a>
+
+					</li>
+
+					<li>
+
+						<a href="#todo">Maps</a>
+
+					</li>
+
+				</ul>
+
+			</div>
+
 		</div>
 
 	<div id="content" class="site-content">

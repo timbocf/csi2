@@ -34,11 +34,25 @@
 
 			<div class="address col-md-2"><?php  // ADDRESS GOES HERE ?></div>
 
-			<div class="col-md-2"></div>
+			<!-- <div class="col-md-2"></div> -->
 
-			<div class="col-md-4">
+			<div class="col-md-6">
 
 				<img src="<?php bloginfo('template_directory') ?>/images/30-yrs-xp.png" alt="30+ years experience" title="30+ years experience">
+
+			</div>
+
+		</div>
+
+		<div class="row">
+
+			<div class="col-md-5">
+
+				<a href="tel:18886390388">
+
+					<img src="<?php bloginfo('template_directory') ?>/images/phone-number-link.png" alt="1-888-639-0388" title="1-888-639-0388">
+
+				</a>
 
 			</div>
 

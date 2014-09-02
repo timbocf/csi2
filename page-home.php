@@ -67,9 +67,54 @@
 
 		<div class="col-md-8">
 
+			<div class="home-bio">
 
+				<h1>Welcome to Construction Strategies, Inc.</h1>
+
+				<p>Construction Strategies, Inc. provides electricians and skilled trades people across the nation to fill large and small scale job openings in Commercial Construction, Industrial Construction, Institutional Construction, and Renewable Energy Projects.</p>
+
+				<p>Call CSI to Staff Your Next Project! Because we are tradesmen ourselves, we know how to hire high-quality skilled trades workers and how to deliver the best service and quality workmanship to our clients.</p>
+
+				<p>We deploy thousands of skilled trades employees throughout the United States each year.</p>
+
+				<p>Call CSI to Staff Your Next Project! Because we are tradesmen ourselves, we know how to hire high-quality skilled trades workers and how to deliver the best service and quality workmanship to our clients.</p>
+
+			</div>
+
+			<div class="testimonials">[Testimonials]</div>
+
+			<div class="home-services">
+
+				<h1>Top Quality Labor Support</h1>
+
+				<ul>
+					<li>Electricians</li>
+					<li>Sheet Metal</li>
+					<li>Iron Workers</li>
+					<li>Painters</li>
+					<li>HVAC Techs</li>
+					<li>Welders</li>
+					<li>Carpenters</li>
+				</ul>
+
+				<ul>
+					<li>Riggers</li>
+					<li>Plumbers</li>
+					<li>Concrete</li>
+					<li>Masons</li>
+					<li>Metal Workers</li>
+					<li>Pipe Fitters</li>
+				</ul>
+
+			</div>
 
 		</div>
+
+	</div>
+
+	<div class="row">
+
+		<div class="content-footer"></div>
 
 	</div>
 

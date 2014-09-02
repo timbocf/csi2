@@ -1035,3 +1035,16 @@ input[type="search"]:focus {
 .menu-item .sub-menu .menu-item {
 	padding: 0.5em 0;
 }
+
+
+/** HOME PAGE **/
+
+.testimonials {
+	height: 20em;
+	text-align: center;
+	border: 1px solid #333;
+}
+
+.home-services ul {
+	float: left;
+}

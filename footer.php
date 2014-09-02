@@ -12,13 +12,18 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'csi2' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'csi2' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'csi2' ), 'csi2', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+	<div class="container">
+
+		<footer id="colophon" class="site-footer">
+			<div class="col-md-2">
+				<a href="/privacy-policy/">Privacy Policy</a>
+				<span class="sep"> | </span>
+				<a href="/site-map/">Site Map</a>
+			</div>
+		</footer><!-- #colophon -->
+
+	</div><!-- container -->
+
 </div><!-- #page -->
 
 <?php wp_footer(); ?>

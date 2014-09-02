@@ -103,45 +103,21 @@
 
 			</div>
 
-			<div class="social col-md-2">
+			<div class="social col-md-3 col-md-offset-6">
 
 				<ul>
 
-					<li>
+					<li><a href="#careerbuilder" class="careerbuilder">Careerbuilder</a></li>
 
-						<a href="#todo">Careerbuilder</a>
+					<li><a href="#facebook" class="facebook">Facebook</a></li>
 
-					</li>
+					<li><a href="#twitter" class="twitter">Twitter</a></li>
 
-					<li>
+					<li><a href="#google+" class="google">Google+</a></li>
 
-						<a href="#todo">Facebook</a>
+					<li><a href="#email" class="email">Email</a></li>
 
-					</li>
-
-					<li>
-
-						<a href="#todo">Twitter</a>
-
-					</li>
-
-					<li>
-
-						<a href="#todo">Google+</a>
-
-					</li>
-
-					<li>
-
-						<a href="#todo">Email</a>
-
-					</li>
-
-					<li>
-
-						<a href="#todo">Maps</a>
-
-					</li>
+					<li><a href="#maps" class="maps">Maps</a></li>
 
 				</ul>
 
@@ -149,4 +125,14 @@
 
 		</div>
 
+	</div>
+
+	<div class="navigation">
+
+		<div></div>
+
+	</div>
+
 	<div id="content" class="site-content">
+
+		<div class="container">

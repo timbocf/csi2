@@ -798,6 +798,14 @@ object {
 13.0 CUSTOM STYLES BY 5PINTS DEVELOPMENT GILBERT AZ
 --------------------------------------------------------------*/
 
+/** TEST FOR BOOTSTRAP COLUMN WIDTH **/
+.testing div {
+	border: 1px solid #333;
+	height: 5px;
+}
+
+/** GENERAL **/
+
 body {
 	padding-top: 2em;
 }
@@ -868,5 +876,62 @@ input[type="search"]:focus {
 }
 
 .social {
-	background: url(images/social.png) no-repeat;
+	/*border: 1px solid #333;*/
+}
+
+.social ul {
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	text-indent: 0;
+}
+
+.social a {
+	text-indent: -9999px;
+	width: 26px;
+	height: 20px;
+	/*border-right: 1px solid #333;*/
+	float: left;
+}
+
+.careerbuilder {
+	width: 92px !important;
+	background-image: url(images/social-bold.png);
+	background-position: 0 -1px;
+}
+
+.facebook {
+	background-image: url(images/social-bold.png);
+	background-position: -95px -1px;
+}
+
+.twitter {
+	background-image: url(images/social-bold.png);
+	background-position: -122px -1px;
+}
+
+.google {
+	background-image: url(images/social-bold.png);
+	background-position: -147px -1px;
+}
+
+.email {
+	background-image: url(images/social-bold.png);
+	background-position: -178px -1px;
+}
+
+.maps {
+	background-image: url(images/social-bold.png);
+	background-position: -215px -1px;
+}
+
+/** NAVIGATION **/
+
+.navigation {
+	background: #d2232e;
+	margin-top: 2em;
+	height: 45px;
+	width: 100%;
+	border-top: 1px solid #e8bb13;
+	border-bottom: 1px solid #e8bb13;
 }

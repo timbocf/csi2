@@ -805,7 +805,7 @@ body {
 /** HEADER **/
 
 div {
-	border: 1px solid #eee;
+	/*border: 1px solid #eee;*/
 }
 
 .address ul {
@@ -839,19 +839,26 @@ form {
 .search {
     padding:8px 15px;
     background:rgba(50, 50, 50, 0.2);
-    border:0px solid #dbdbdb;
+    /*border:0px solid #dbdbdb;*/
+    border:0px solid #d2232e;
+}
+input[type="search"] {
+	outline: none;
+}
+input[type="search"]:focus {
+	border: 1px solid #d2232e;
 }
 .button {
     position:relative;
     padding:6px 15px;
-    left:-8px;
+    /*left:-8px;*/
     border:2px solid #d2232e;
     background-color:#d2232e;
     color:#fafafa;
 }
 .button:hover  {
     background-color:#fafafa;
-    color:#207cca;
+    color:#d2232e;
 }
 
 

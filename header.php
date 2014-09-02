@@ -73,7 +73,7 @@
 
 				<div class="row">
 
-					<div class="searchform col-md-6 col-md-offset-6">
+					<div class="searchform col-md-7 col-md-offset-5">
 
 						<form>
 

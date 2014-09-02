@@ -29,9 +29,7 @@
 
 			<div class="logo col-md-4">
 
-				<a class="brand" id="logo" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>"><img src="<?php echo of_get_option('branding_logo'); ?>" alt="<?php if(of_get_option('site_name','1')) bloginfo('name'); ?>"></a></div>
-
-				<!-- <img src="<?php bloginfo('template_directory') ?>/images/csi-logo.png" alt="Construction Strategies Inc" title="Construction Strategies Inc"> -->
+				<a class="brand" id="logo" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_directory') ?>/images/csi-logo.png" alt="Construction Strategies Inc" title="Construction Strategies Inc"></a>
 
 			</div>
 

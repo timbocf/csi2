@@ -22,16 +22,26 @@
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'csi2' ); ?></a>
 
-	<header id="masthead" class="site-header" role="banner">
-		<div class="site-branding">
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-		</div>
+	<div class="container">
 
-		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<button class="menu-toggle"><?php _e( 'Primary Menu', 'csi2' ); ?></button>
-			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
+		<div class="row">
+
+			<div class="logo col-md-4">
+
+				<img src="<?php bloginfo('template_directory') ?>/wp-content/themes/csi2/images/csi-logo.png" alt="Construction Strategies Inc" title="Construction Strategies Inc">
+
+			</div>
+
+			<div class="address col-md-2"><?php  // ADDRESS GOES HERE ?></div>
+
+			<div class="col-md-2"></div>
+
+			<div class="col-md-4">
+
+				<img src="<?php bloginfo('template_directory') ?>/wp-content/themes/csi2/images/30-yrs-xp.png" alt="30+ years experience" title="30+ years experience">
+
+			</div>
+
+		</div>
 
 	<div id="content" class="site-content">

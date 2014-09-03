@@ -6,7 +6,7 @@
 
 			<div class="slide">
 
-				<img src="#todo" alt="#todo">
+				<img src="<?php bloginfo('template_directory') ?>/images/slide1.png" alt="slider">
 
 			</div>
 
@@ -16,11 +16,23 @@
 
 			<div class="slider-overlay">
 
-				<div>Find Contractor Support</div>
+				<div>
+					<a href="#todo">
+						<img src="<?php bloginfo('template_directory') ?>/images/slider-overlay-1.png" alt="Find Contractor Support" title="Find Contractor Support">
+					</a>
+				</div>
 
-				<div>Find Skilled Craftsmen</div>
+				<div>
+					<a href="#todo">
+						<img src="<?php bloginfo('template_directory') ?>/images/slider-overlay-2.png" alt="Find Skilled Craftsmen" title="Find Skilled Craftsmen">
+					</a>
+				</div>
 
-				<div class="last">Find a Dream Job</div>
+				<div class="last">
+					<a href="#todo">
+						<img src="<?php bloginfo('template_directory') ?>/images/slider-overlay-3.png" alt="Find a Dream Job" title="Find a Dream Job">
+					</a>
+				</div>
 
 			</div>
 
@@ -95,13 +107,7 @@
 
 					<div class="content">
 
-						<p class="first">Construction Strategies, Inc. provides electricians and skilled trades people across the nation to fill large and small scale job openings in Commercial Construction, Industrial Construction, Institutional Construction, and Renewable Energy Projects.</p>
-
-						<p class="second">Call CSI to Staff Your Next Project! Because we are tradesmen ourselves, we know how to hire high-quality skilled trades workers and how to deliver the best service and quality workmanship to our clients.</p>
-
-						<p class="third">We deploy thousands of skilled trades employees throughout the United States each year.</p>
-
-						<p class="fourth">Call CSI to Staff Your Next Project! Because we are tradesmen ourselves, we know how to hire high-quality skilled trades workers and how to deliver the best service and quality workmanship to our clients.</p>
+						<?php the_cfc_field('welcome_section', 'content-for-welcome-section') ?>
 
 					</div>
 
@@ -109,7 +115,7 @@
 
 				</div>
 
-				<div class="testimonials">[Testimonials]</div>
+				<div class="testimonials"></div>
 
 				<div class="home-services">
 

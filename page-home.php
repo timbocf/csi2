@@ -1,24 +1,38 @@
 <?php get_header(); ?>
 
-	<div class="home-slideshow"></div>
+	<div class="home-slideshow-wrap">
 
-	<div class="row">
+		<div class="home-slideshow">
 
-		<div class="slider-overlay"></div>
+			<div class="slide">
 
-		<div class="slider-overlay"></div>
+				<img src="#todo" alt="#todo">
 
-		<div class="slider-overlay"></div>
+			</div>
+
+		</div>
+
+		<div class="row slider-overlay">
+
+			<div>Find Contractor Support</div>
+
+			<div>Find Skilled Craftsmen</div>
+
+			<div class="last">Find a Dream Job</div>
+
+		</div>
 
 	</div>
 
 	<div class="row">
 
-		<div class="col-md-4">
+		<div class="col-md-4 left-sidebar">
 
-			<h2>Contractor Staffing Services</h2>
+			Some content.
 
-			<ul>
+			<!-- <h3>Contractor Staffing Services</h3> -->
+
+			<!-- <ul>
 				<li>Contractors</li>
 				<li>Customer Satisfaction</li>
 				<li>Staffing Solutions</li>
@@ -33,11 +47,11 @@
 				<li>Concrete Staffing</li>
 				<li>Iron Work Staffing</li>
 				<li>Metal Work Staffing</li>
-			</ul>
+			</ul> -->
 
-			<h2>Skilled Tradesmen</h2>
+			<!-- <h3>Skilled Tradesmen</h3> -->
 
-			<ul>
+			<!-- <ul>
 				<li>Tradesmen</li>
 				<li>CSI Promise to You</li>
 				<li>Employee Benefits</li>
@@ -52,16 +66,16 @@
 				<li>Metal Workers Apply Online</li>
 				<li>Welders Apply Online</li>
 				<li>Helpers Apply Online</li>
-			</ul>
+			</ul> -->
 
-			<h2>Construction Industries</h2>
+			<!-- <h3>Construction Industries</h3> -->
 
-			<ul>
+			<!-- <ul>
 				<li>Industrial Staffing</li>
 				<li>Renewable Energy Staffing</li>
 				<li>Institutional Staffing</li>
 				<li>Retail Construction Staffing</li>
-			</ul>
+			</ul> -->
 
 		</div>
 
@@ -114,7 +128,20 @@
 
 	<div class="row">
 
-		<div class="content-footer"></div>
+		<div class="content-footer">
+
+			<div class="col-md-3">
+				<a href="#todo">Find Contractor Support</a>
+			</div>
+			<div class="col-md-3">
+				<a href="#todo">Find Skilled Craftsmen</a>
+			</div>
+			<div class="col-md-3">
+				<a href="#todo">Find a Dream Job</a>
+			</div>
+			<div class="col-md-3 last"></div>
+
+		</div>
 
 	</div>
 

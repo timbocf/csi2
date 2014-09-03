@@ -19,6 +19,30 @@
 				<a href="/privacy-policy/">Privacy Policy</a>
 				<span class="sep"> | </span>
 				<a href="/site-map/">Site Map</a>
+				<ul>
+					<li>Proud Members Of:</li>
+					<li>
+						<a href="#todo">
+							<img src="#todo">
+						</a>
+					</li>
+					<li>
+						<a href="#todo">
+							<img src="#todo">
+						</a>
+					</li>
+					<li>
+						<a href="#todo">
+							<img src="#todo">
+						</a>
+					</li>
+					<li>
+						<a href="#todo">
+							<img src="#todo">
+						</a>
+					</li>
+				</ul>
+				<a href="http://5pints.com">Site by 5 Pints Productions</a>
 			</div>
 		</footer><!-- #colophon -->
 

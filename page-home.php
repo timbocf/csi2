@@ -28,7 +28,7 @@
 
 	</div>
 
-	<div class="container">
+	<div><!-- class="container" -->
 
 		<div class="row">
 
@@ -91,15 +91,21 @@
 
 				<div class="home-bio">
 
-					<h1>Welcome to Construction Strategies, Inc.</h1>
+					<img src="<?php bloginfo('template_directory') ?>/images/welcome-to-construction-strategies.png" alt="Welcome to Construction Strategies, Inc." title="Welcome to Construction Strategies, Inc." class="headline">
 
-					<p>Construction Strategies, Inc. provides electricians and skilled trades people across the nation to fill large and small scale job openings in Commercial Construction, Industrial Construction, Institutional Construction, and Renewable Energy Projects.</p>
+					<div class="content">
 
-					<p>Call CSI to Staff Your Next Project! Because we are tradesmen ourselves, we know how to hire high-quality skilled trades workers and how to deliver the best service and quality workmanship to our clients.</p>
+						<p class="first">Construction Strategies, Inc. provides electricians and skilled trades people across the nation to fill large and small scale job openings in Commercial Construction, Industrial Construction, Institutional Construction, and Renewable Energy Projects.</p>
 
-					<p>We deploy thousands of skilled trades employees throughout the United States each year.</p>
+						<p class="second">Call CSI to Staff Your Next Project! Because we are tradesmen ourselves, we know how to hire high-quality skilled trades workers and how to deliver the best service and quality workmanship to our clients.</p>
 
-					<p>Call CSI to Staff Your Next Project! Because we are tradesmen ourselves, we know how to hire high-quality skilled trades workers and how to deliver the best service and quality workmanship to our clients.</p>
+						<p class="third">We deploy thousands of skilled trades employees throughout the United States each year.</p>
+
+						<p class="fourth">Call CSI to Staff Your Next Project! Because we are tradesmen ourselves, we know how to hire high-quality skilled trades workers and how to deliver the best service and quality workmanship to our clients.</p>
+
+					</div>
+
+					<img src="<?php bloginfo('template_directory') ?>/images/wire.png" alt="wire" class="wire">
 
 				</div>
 

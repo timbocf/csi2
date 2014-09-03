@@ -1097,7 +1097,8 @@ input[type="search"]:focus {
 .slider-overlay>div {
 	width: 20%;
 	float: left;
-	padding-right: 10%;
+	margin-right: 50px;
+	background: #fff;
 }
 
 .slider-overlay>div.last {
@@ -1110,18 +1111,81 @@ input[type="search"]:focus {
 .testimonials,
 .home-services {
 	background: #fff;
-	/*padding: 0;*/
-	/*margin: 0;*/
+	margin: 10px 0;
 	min-height: 100px;
 }
 
-.left-sidebar ul {
-	/*margin-left: 0;*/
-	/*text-indent: 0;*/
+.left-sidebar {
+	padding: 10px 0 10px 10px;
+	margin-right: -10px;
+
+	-webkit-box-shadow: inset 0 0 129px 74px rgba(175,176,176,0.9);
+	-moz-box-shadow: inset 0 0 129px 74px rgba(175,176,176,0.9);
+	box-shadow: inset 0 0 129px 74px rgba(175,176,176,0.9);
 }
 
-.site-content>.container {
-	/*background: yellow;*/
+.left-sidebar h3 {
+	color: #1c3d74;
+	font-size: 1.5em;
+	font-weight: 900;
+}
+
+.content-main,
+.home-bio,
+.testimonials,
+.home-services {
+	padding: 10px;
+}
+
+.left-sidebar ul {
+    list-style: none;
+    /*padding: 0;*/
+    /*margin: 0;*/
+}
+
+.left-sidebar li { 
+    padding-left: 1em; 
+    text-indent: -2em;
+}
+
+.left-sidebar li:before {
+    content: "\002022";
+    color: #ba1f29; /* or whatever color you prefer */
+    padding-right: 7px;
+}
+
+.left-sidebar h3 {
+	padding-left: 1.3em;
+}
+
+.home-bio {
+	padding-top: 30px;
+	padding-left: 2em;
+	position: relative;
+}
+
+.home-bio .headline {
+	width: 500px;
+	height: auto;
+	padding-bottom: 1em;
+}
+
+.home-bio .content .first {
+	width: 43em;
+}
+
+.home-bio .content .second {
+	width: 44em;
+}
+
+.home-bio .content .fourth {
+	width: 48em;
+}
+
+.home-bio .wire {
+	position: absolute;
+	right: 0;
+	top: 20px;
 }
 
 

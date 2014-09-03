@@ -28,11 +28,9 @@
 
 		<div class="col-md-4 left-sidebar">
 
-			Some content.
+			<h3>Contractor Staffing Services</h3>
 
-			<!-- <h3>Contractor Staffing Services</h3> -->
-
-			<!-- <ul>
+			<ul>
 				<li>Contractors</li>
 				<li>Customer Satisfaction</li>
 				<li>Staffing Solutions</li>
@@ -47,11 +45,11 @@
 				<li>Concrete Staffing</li>
 				<li>Iron Work Staffing</li>
 				<li>Metal Work Staffing</li>
-			</ul> -->
+			</ul>
 
-			<!-- <h3>Skilled Tradesmen</h3> -->
+			<h3>Skilled Tradesmen</h3>
 
-			<!-- <ul>
+			<ul>
 				<li>Tradesmen</li>
 				<li>CSI Promise to You</li>
 				<li>Employee Benefits</li>
@@ -66,16 +64,16 @@
 				<li>Metal Workers Apply Online</li>
 				<li>Welders Apply Online</li>
 				<li>Helpers Apply Online</li>
-			</ul> -->
+			</ul>
 
-			<!-- <h3>Construction Industries</h3> -->
+			<h3>Construction Industries</h3>
 
-			<!-- <ul>
+			<ul>
 				<li>Industrial Staffing</li>
 				<li>Renewable Energy Staffing</li>
 				<li>Institutional Staffing</li>
 				<li>Retail Construction Staffing</li>
-			</ul> -->
+			</ul>
 
 		</div>
 

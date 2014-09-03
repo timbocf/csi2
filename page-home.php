@@ -24,9 +24,9 @@
 
 	</div>
 
-	<div class="row">
+	<div class="col-md-4">
 
-		<div class="col-md-4 left-sidebar">
+		<div class="left-sidebar">
 
 			<h3>Contractor Staffing Services</h3>
 
@@ -77,52 +77,53 @@
 
 		</div>
 
-		<div class="col-md-8">
+	</div>
 
-			<div class="home-bio">
+	<div class="col-md-8">
 
-				<h1>Welcome to Construction Strategies, Inc.</h1>
+		<div class="home-bio">
 
-				<p>Construction Strategies, Inc. provides electricians and skilled trades people across the nation to fill large and small scale job openings in Commercial Construction, Industrial Construction, Institutional Construction, and Renewable Energy Projects.</p>
+			<h1>Welcome to Construction Strategies, Inc.</h1>
 
-				<p>Call CSI to Staff Your Next Project! Because we are tradesmen ourselves, we know how to hire high-quality skilled trades workers and how to deliver the best service and quality workmanship to our clients.</p>
+			<p>Construction Strategies, Inc. provides electricians and skilled trades people across the nation to fill large and small scale job openings in Commercial Construction, Industrial Construction, Institutional Construction, and Renewable Energy Projects.</p>
 
-				<p>We deploy thousands of skilled trades employees throughout the United States each year.</p>
+			<p>Call CSI to Staff Your Next Project! Because we are tradesmen ourselves, we know how to hire high-quality skilled trades workers and how to deliver the best service and quality workmanship to our clients.</p>
 
-				<p>Call CSI to Staff Your Next Project! Because we are tradesmen ourselves, we know how to hire high-quality skilled trades workers and how to deliver the best service and quality workmanship to our clients.</p>
+			<p>We deploy thousands of skilled trades employees throughout the United States each year.</p>
 
-			</div>
+			<p>Call CSI to Staff Your Next Project! Because we are tradesmen ourselves, we know how to hire high-quality skilled trades workers and how to deliver the best service and quality workmanship to our clients.</p>
 
-			<div class="testimonials">[Testimonials]</div>
+		</div>
 
-			<div class="home-services">
+		<div class="testimonials">[Testimonials]</div>
 
-				<h1>Top Quality Labor Support</h1>
+		<div class="home-services">
 
-				<ul>
-					<li>Electricians</li>
-					<li>Sheet Metal</li>
-					<li>Iron Workers</li>
-					<li>Painters</li>
-					<li>HVAC Techs</li>
-					<li>Welders</li>
-					<li>Carpenters</li>
-				</ul>
+			<h1>Top Quality Labor Support</h1>
 
-				<ul>
-					<li>Riggers</li>
-					<li>Plumbers</li>
-					<li>Concrete</li>
-					<li>Masons</li>
-					<li>Metal Workers</li>
-					<li>Pipe Fitters</li>
-				</ul>
+			<ul>
+				<li>Electricians</li>
+				<li>Sheet Metal</li>
+				<li>Iron Workers</li>
+				<li>Painters</li>
+				<li>HVAC Techs</li>
+				<li>Welders</li>
+				<li>Carpenters</li>
+			</ul>
 
-			</div>
+			<ul>
+				<li>Riggers</li>
+				<li>Plumbers</li>
+				<li>Concrete</li>
+				<li>Masons</li>
+				<li>Metal Workers</li>
+				<li>Pipe Fitters</li>
+			</ul>
 
 		</div>
 
 	</div>
+
 
 	<div class="row">
 

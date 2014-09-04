@@ -40,7 +40,7 @@
 
 	</div>
 
-	<div><!-- class="container" -->
+	<div class="content-wrap"><!-- class="container" -->
 
 		<div class="row">
 
@@ -117,7 +117,40 @@
 
 				</div>
 
-				<div class="testimonials"></div>
+				<div class="testimonials">
+
+					<?php   
+
+							$args = array(
+
+								'post_type' => 'testimonials',
+
+								'posts_per_page' => -1
+
+							);
+
+							$query = new WP_Query($args);
+
+							if ( $query->have_posts() ) :
+
+								while ($query->have_posts()) : $query->the_post();
+
+									$meta = get_cfc_meta('testimonial');
+
+									foreach($meta as $key => $value) : ?>
+
+									<div>
+
+										<p><?php the_cfc_field('testimonial', 'testimonial'); ?></p>
+
+										<p><?php the_cfc_field('testimonial', 'name'); ?>, 
+												<?php the_cfc_field('testimonial', 'company'); ?></p>
+
+									</div>
+
+					<?php endforeach; endwhile; endif; wp_reset_postdata(); ?>
+
+				</div>
 
 				<div class="home-services">
 
@@ -142,9 +175,12 @@
 							<li>Masons</li>
 							<li>Metal Workers</li>
 							<li>Pipe Fitters</li>
+							<li class="and-more">
+								<img src="<?php bloginfo('template_directory') ?>/images/and-more.png" alt="We do more!" title="We do more!">
+							</li>
 						</ul>
 
-						<img src="#todo" class="col-md-6">
+						<img src="<?php bloginfo('template_directory') ?>/images/workers.png" alt="Construction Workers" title="Construction Workers" class="col-md-6">
 
 					</div>
 
@@ -159,7 +195,7 @@
 	</div><!-- container -->
 
 
-	<div class="content-footer">
+	<div class="bottom-row">
 
 		<div class="col-md-3">
 			<a href="#todo">Find Contractor Support</a>

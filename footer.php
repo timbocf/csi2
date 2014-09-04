@@ -19,33 +19,16 @@
 					<a href="/site-map/">Site Map</a>
 				</div>
 
-				<div class="col-md-8">
+				<div class="col-md-7">
 					<ul>
 						<li>Proud Members Of:</li>
 						<li>
-							<a href="#todo">
-								<img src="#todo">
-							</a>
-						</li>
-						<li>
-							<a href="#todo">
-								<img src="#todo">
-							</a>
-						</li>
-						<li>
-							<a href="#todo">
-								<img src="#todo">
-							</a>
-						</li>
-						<li>
-							<a href="#todo">
-								<img src="#todo">
-							</a>
+							<img src="<?php bloginfo('template_directory') ?>/images/footer-icons.png">
 						</li>
 					</ul>
 				</div>
 
-				<div class="col-md-2">
+				<div class="col-md-3 text-right">
 					<a href="http://5pints.com">Site by 5 Pints Productions</a>
 				</div>
 			</footer><!-- #colophon -->

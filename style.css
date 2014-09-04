@@ -1051,14 +1051,6 @@ input[type="search"]:focus {
 
 /** HOME PAGE **/
 
-.home-services ul {
-	/*float: left;*/
-}
-
-.home-services img {
-	/*float: right;*/
-}
-
 .home-slideshow-wrap {
 	height: 526px;
 }
@@ -1111,7 +1103,8 @@ input[type="search"]:focus {
 }
 
 .left-sidebar {
-	padding: 10px 0 10px 10px;
+	height: 100%;
+	padding: 10px 0 10px 1.3em;
 	margin-right: -10px;
 
 	-webkit-box-shadow: inset 0 0 129px 74px rgba(175,176,176,0.9);
@@ -1125,32 +1118,34 @@ input[type="search"]:focus {
 	font-weight: 900;
 }
 
-.content-main,
-.home-bio,
-.testimonials,
-.home-services {
-	padding: 10px;
-}
-
-.left-sidebar ul {
+.left-sidebar ul,
+.home-services ul {
     list-style: none;
-    /*padding: 0;*/
-    /*margin: 0;*/
 }
 
-.left-sidebar li { 
+.left-sidebar li,
+.home-services li { 
     padding-left: 1em; 
     text-indent: -2em;
 }
 
-.left-sidebar li:before {
+.left-sidebar li:before,
+.home-services li:before {
     content: "\002022";
     color: #ba1f29; /* or whatever color you prefer */
     padding-right: 7px;
 }
 
-.left-sidebar h3 {
-	padding-left: 1.3em;
+.left-sidebar img {
+	padding: 2em;
+	margin-left: 15%;
+}
+
+.content-main,
+.home-bio,
+.testimonials,
+.home-services {
+	padding: 10px;
 }
 
 .home-bio {
@@ -1183,10 +1178,22 @@ input[type="search"]:focus {
 
 .testimonials {
 	background: url(images/testimonials.png) no-repeat;
-	background-size: contain;
+	background-size: 100%;
 	height: 211px;
 	text-align: center;
 	border: 1px solid #333;
+}
+
+.home-services .headline {
+	padding: 2em;
+}
+
+.home-services ul {
+	/*margin-left: 2px;*/
+}
+
+.home-services img {
+	/*float: right;*/
 }
 
 

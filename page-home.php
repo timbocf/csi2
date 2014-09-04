@@ -95,9 +95,9 @@
 						<li>Retail Construction Staffing</li>
 					</ul>
 
-				</div>
+					<img src="<?php bloginfo('template_directory') ?>/images/get-the-report.png" alt="Get the Report" title="Get the Report">
 
-				
+				</div>
 
 			</div>
 
@@ -121,11 +121,11 @@
 
 				<div class="home-services">
 
-				<h1>Top Quality Labor Support</h1>
+					<img src="<?php bloginfo('template_directory') ?>/images/top-quality-labor-support.png" class="headline" alt="Top Quality Labor Support" title="Top Quality Labor Support">
 
 					<div class="row">
 
-						<ul class="col-md-3">
+						<ul class="col-md-2">
 							<li>Electricians</li>
 							<li>Sheet Metal</li>
 							<li>Iron Workers</li>
@@ -135,7 +135,7 @@
 							<li>Carpenters</li>
 						</ul>
 
-						<ul class="col-md-3">
+						<ul class="col-md-2">
 							<li>Riggers</li>
 							<li>Plumbers</li>
 							<li>Concrete</li>

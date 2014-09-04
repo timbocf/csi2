@@ -139,12 +139,16 @@
 
 									foreach($meta as $key => $value) : ?>
 
-									<div>
+									<div class="testimonial">
 
-										<p><?php the_cfc_field('testimonial', 'testimonial'); ?></p>
+										<div>
 
-										<p><?php the_cfc_field('testimonial', 'name'); ?>, 
-												<?php the_cfc_field('testimonial', 'company'); ?></p>
+											<p><?php the_cfc_field('testimonial', 'testimonial'); ?></p>
+
+											<p><?php the_cfc_field('testimonial', 'name'); ?>, 
+													<?php the_cfc_field('testimonial', 'company'); ?></p>
+
+										</div>
 
 									</div>
 

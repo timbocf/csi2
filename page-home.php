@@ -4,7 +4,7 @@
 
 		<div class="home-slideshow">
 
-			<div class="slide">
+			<div>
 
 				<img src="<?php bloginfo('template_directory') ?>/images/slide1.png" alt="slider">
 
@@ -139,16 +139,12 @@
 
 									foreach($meta as $key => $value) : ?>
 
-									<div class="testimonial">
+									<div class="testimonial col-xs-10">
 
-										<div>
+										<p><?php the_cfc_field('testimonial', 'testimonial'); ?></p>
 
-											<p><?php the_cfc_field('testimonial', 'testimonial'); ?></p>
-
-											<p><?php the_cfc_field('testimonial', 'name'); ?>, 
-													<?php the_cfc_field('testimonial', 'company'); ?></p>
-
-										</div>
+										<p><?php the_cfc_field('testimonial', 'name'); ?>, 
+												<?php the_cfc_field('testimonial', 'company'); ?></p>
 
 									</div>
 

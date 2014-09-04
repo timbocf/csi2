@@ -1,6 +1,6 @@
 (function($){$(function(){
 
-	$('.testimonial').slick({
+	$('.testimonials').slick({
 
 			autoplay: true,
 
@@ -8,7 +8,21 @@
 
 			arrows: true,
 
-			width: 100%
+			autoplaySpeed: 3000
+
+		});
+
+
+
+	$('.home-slideshow').slick({
+
+			autoplay: true,
+
+			dots: true,
+
+			arrows: true,
+
+			autoplaySpeed: 6000
 
 		});
 

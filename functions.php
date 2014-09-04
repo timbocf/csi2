@@ -104,7 +104,7 @@ function csi2_scripts() {
 
 	wp_enqueue_script( 'slick-js', get_template_directory_uri() . '/slick/slick.min.js', array('jquery'), '20140902', true );
 
-	wp_enqueue_style( 'slick-css', get_template_directory_uri() . 'slick/slick.css', '20140902', true );
+	wp_enqueue_style( 'slick-css', get_template_directory_uri() . '/slick/slick.css', '20140902', true );
 
 	wp_enqueue_script( 'slideshow-js', get_template_directory_uri() . '/js/slideshow.js', array('jquery'), '20140902', true );
 

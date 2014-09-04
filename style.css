@@ -1049,6 +1049,16 @@ input[type="search"]:focus {
 }
 
 
+/** SLIDESHOWS **/
+.slick-prev {
+	left: 0 !important;
+}
+
+.slick-next {
+	right: 0 !important;
+}
+
+
 /** HOME PAGE **/
 
 .content-wrap {
@@ -1190,7 +1200,11 @@ input[type="search"]:focus {
 	text-align: center;
 	border: 1px solid #333;
 	color: #ffffff;
-	padding-top: 4em;
+	padding-top: 6em;
+}
+
+.testimonial {
+	/*width: 80%;*/
 }
 
 .home-services {

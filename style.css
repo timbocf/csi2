@@ -1015,7 +1015,7 @@ input[type="search"]:focus {
 	border-right: 8px solid transparent;
 	border-bottom: 8px solid transparent;
 	border-left: 8px solid transparent;
-	top: 50%;
+	top: 30%;
 	right: -5px;
 }
 
@@ -1195,6 +1195,10 @@ input[type="search"]:focus {
 	color: #ffffff;
 }
 
+.panel-title a {
+	text-decoration: none !important;
+}
+
 .left-column ul,
 .home-services ul {
     list-style: none;
@@ -1339,16 +1343,16 @@ input[type="search"]:focus {
 .site-footer {
 	line-height: 5em;
 	font-size: 0.8em;
-	color: #ba1f29;
+	color: #939598;
 }
 
 .site-footer a {
-	color: #ba1f29;
+	color: #939598;
 	text-transform: uppercase;
 }
 
 .site-footer a:hover {
-	color: #db2e39;
+	color: #a9acb1;
 }
 
 .site-footer ul {

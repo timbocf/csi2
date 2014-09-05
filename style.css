@@ -1050,12 +1050,20 @@ input[type="search"]:focus {
 
 
 /** SLIDESHOWS **/
-.slick-prev {
+.testimonials .slick-prev {
 	left: 0 !important;
 }
 
-.slick-next {
+.testimonials .slick-next {
 	right: 0 !important;
+}
+
+.testimonials .slick-dots {
+	bottom: 0 !important;
+}
+
+.right-column .slick-slider {
+	margin-bottom: 0 !important;
 }
 
 
@@ -1108,18 +1116,20 @@ input[type="search"]:focus {
 	padding-right: 0;
 }
 
-.left-sidebar,
+
+/** LEFT COLUMN **/
+.left-column,
 .content-main,
 .home-bio,
 .testimonials,
 .home-services {
 	background: #fff;
-	margin: 10px 0;
+	margin: 2px 0;
 	min-height: 100px;
 }
 
-.left-sidebar {
-	height: 1200px;
+.left-column {
+	height: 880px;
 	padding: 1px 0 10px 1.3em;
 	margin-right: -10px;
 	line-height: 1.2em;
@@ -1130,39 +1140,40 @@ input[type="search"]:focus {
 	box-shadow: inset 0 0 129px 74px rgba(175,176,176,0.9);
 }
 
-.left-sidebar h3 {
+.left-column h3 {
 	color: #1c3d74;
 	font-size: 1.5em;
 	font-weight: 900;
 	/*padding: 0;*/
 }
 
-.left-sidebar ul,
+.left-column ul,
 .home-services ul {
     list-style: none;
 }
 
-.left-sidebar li,
+.left-column li,
 .home-services li { 
     padding-left: 1em; 
     text-indent: -2em;
 }
 
-.left-sidebar li:before,
+.left-column li:before,
 .home-services li:before {
     content: "\002022";
     color: #ba1f29; /* or whatever color you prefer */
     padding-right: 7px;
 }
 
-.left-sidebar .get-the-report {
+.left-column .get-the-report {
 	/*padding: 2em;*/
 	/*margin-left: 15%;*/
 	position: absolute;
-	bottom: 0;
-	left: 0;
+	bottom: 100px;
+	left: 30%;
 }
 
+/** RIGHT COLUMN **/
 .content-main,
 .home-bio,
 .testimonials,

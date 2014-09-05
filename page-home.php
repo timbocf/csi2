@@ -46,7 +46,7 @@
 
 			<div class="col-md-4">
 
-				<div class="left-sidebar">
+				<div class="left-column">
 
 					<div class="panel-group" id="accordion">
 
@@ -165,7 +165,7 @@
 
 			</div>
 
-			<div class="col-md-8">
+			<div class="col-md-8 right-column">
 
 				<div class="home-bio">
 

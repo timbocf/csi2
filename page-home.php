@@ -48,54 +48,118 @@
 
 				<div class="left-sidebar">
 
-					<h3>Contractor Staffing Services</h3>
+					<div class="panel-group" id="accordion">
 
-					<ul>
-						<li>Contractors</li>
-						<li>Customer Satisfaction</li>
-						<li>Staffing Solutions</li>
-						<li>Safety</li>
-						<li>Partner With CSI</li>
-						<li>Construction Staffing States</li>
-						<li>Electrical Staffing</li>
-						<li>HVAC Mechanical Staffing</li>
-						<li>Plumbing Staffing</li>
-						<li>Welding Staffing</li>
-						<li>Carpentry Staffing</li>
-						<li>Concrete Staffing</li>
-						<li>Iron Work Staffing</li>
-						<li>Metal Work Staffing</li>
-					</ul>
+				        <div class="panel panel-default">
 
-					<h3>Skilled Tradesmen</h3>
+				            <div class="panel-heading">
 
-					<ul>
-						<li>Tradesmen</li>
-						<li>CSI Promise to You</li>
-						<li>Employee Benefits</li>
-						<li>Traveling Tradesmen</li>
-						<li>Tradesmen Job Openings</li>
-						<li>Electricians Apply Online</li>
-						<li>HVAC Mechanical Apply Online</li>
-						<li>Carpenters Apply Online</li>
-						<li>Concrete Masons Apply Online</li>
-						<li>Plumbers Apply Online</li>
-						<li>Iron Workers Apply Online</li>
-						<li>Metal Workers Apply Online</li>
-						<li>Welders Apply Online</li>
-						<li>Helpers Apply Online</li>
-					</ul>
+								<h3 class="panel-title">
 
-					<h3>Construction Industries</h3>
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Contractor Staffing Services</a>
 
-					<ul>
-						<li>Industrial Staffing</li>
-						<li>Renewable Energy Staffing</li>
-						<li>Institutional Staffing</li>
-						<li>Retail Construction Staffing</li>
-					</ul>
+								</h3>
 
-					<img src="<?php bloginfo('template_directory') ?>/images/get-the-report.png" alt="Get the Report" title="Get the Report">
+							</div>
+
+							<div id="collapseOne" class="panel-collapse collapse in">
+                		
+                				<div class="panel-body">
+
+									<ul>
+										<li><a href="#todo">Contractors</a></li>
+										<li><a href="#todo">Customer Satisfaction</a></li>
+										<li><a href="#todo">Staffing Solutions</a></li>
+										<li><a href="#todo">Safety</a></li>
+										<li><a href="#todo">Partner With CSI</a></li>
+										<li><a href="#todo">Construction Staffing States</a></li>
+										<li><a href="#todo">Electrical Staffing</a></li>
+										<li><a href="#todo">HVAC Mechanical Staffing</a></li>
+										<li><a href="#todo">Plumbing Staffing</a></li>
+										<li><a href="#todo">Welding Staffing</a></li>
+										<li><a href="#todo">Carpentry Staffing</a></li>
+										<li><a href="#todo">Concrete Staffing</a></li>
+										<li><a href="#todo">Iron Work Staffing</a></li>
+										<li><a href="#todo">Metal Work Staffing</a></li>
+									</ul>
+
+								</div>
+
+				            </div>
+
+				        </div>
+
+				        <div class="panel panel-default">
+				            
+				            <div class="panel-heading">
+
+								<h3 class="panel-title">
+
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Skilled Tradesmen</a>
+
+								</h3>
+
+							</div>
+
+					        <div id="collapseTwo" class="panel-collapse collapse">
+
+					            <div class="panel-body">
+
+					            	<ul>
+										<li><a href="#todo">Tradesmen</a></li>
+										<li><a href="#todo">CSI Promise to You</a></li>
+										<li><a href="#todo">Employee Benefits</a></li>
+										<li><a href="#todo">Traveling Tradesmen</a></li>
+										<li><a href="#todo">Tradesmen Job Openings</a></li>
+										<li><a href="#todo">Electricians Apply Online</a></li>
+										<li><a href="#todo">HVAC Mechanical Apply Online</a></li>
+										<li><a href="#todo">Carpenters Apply Online</a></li>
+										<li><a href="#todo">Concrete Masons Apply Online</a></li>
+										<li><a href="#todo">Plumbers Apply Online</a></li>
+										<li><a href="#todo">Iron Workers Apply Online</a></li>
+										<li><a href="#todo">Metal Workers Apply Online</a></li>
+										<li><a href="#todo">Welders Apply Online</a></li>
+										<li><a href="#todo">Helpers Apply Online</a></li>
+									</ul>
+
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="panel panel-default">
+
+							<div class="panel-heading">
+
+								<h3 class="panel-title">
+
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Construction Industries</a>
+
+								</h3>
+
+							</div>
+
+				            <div id="collapseThree" class="panel-collapse collapse">
+
+				                <div class="panel-body">
+
+									<ul>
+										<li>Industrial Staffing</li>
+										<li>Renewable Energy Staffing</li>
+										<li>Institutional Staffing</li>
+										<li>Retail Construction Staffing</li>
+									</ul>
+
+								</div>
+
+				            </div>
+
+				        </div>
+
+				    </div>
+
+					<img src="<?php bloginfo('template_directory') ?>/images/get-the-report.png" alt="Get the Report" title="Get the Report" class="get-the-report">
 
 				</div>
 

@@ -1063,7 +1063,7 @@ input[type="search"]:focus {
 
 .content-wrap {
 	max-height: 901px;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
 .home-slideshow-wrap {
@@ -1093,6 +1093,7 @@ input[type="search"]:focus {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
+	/*z-index: 1000;*/
 }
 
 .slider-overlay>div {
@@ -1118,10 +1119,11 @@ input[type="search"]:focus {
 }
 
 .left-sidebar {
-	height: 100%;
+	height: 1200px;
 	padding: 1px 0 10px 1.3em;
 	margin-right: -10px;
 	line-height: 1.2em;
+	position: relative;
 
 	-webkit-box-shadow: inset 0 0 129px 74px rgba(175,176,176,0.9);
 	-moz-box-shadow: inset 0 0 129px 74px rgba(175,176,176,0.9);
@@ -1153,9 +1155,12 @@ input[type="search"]:focus {
     padding-right: 7px;
 }
 
-.left-sidebar img {
-	padding: 2em;
-	margin-left: 15%;
+.left-sidebar .get-the-report {
+	/*padding: 2em;*/
+	/*margin-left: 15%;*/
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
 
 .content-main,
@@ -1275,4 +1280,8 @@ input[type="search"]:focus {
 /** TEST **/
 .test {
 	background: yellow;
+}
+
+.hide {
+	display: none;
 }

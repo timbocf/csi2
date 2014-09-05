@@ -159,7 +159,11 @@
 
 				    </div>
 
-					<img src="<?php bloginfo('template_directory') ?>/images/get-the-report.png" alt="Get the Report" title="Get the Report" class="get-the-report">
+				    <a href="#todo">
+
+				    	<img src="<?php bloginfo('template_directory') ?>/images/get-the-report.png" alt="Get the Report" title="Get the Report" class="get-the-report">
+
+				    </a>
 
 				</div>
 

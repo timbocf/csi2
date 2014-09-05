@@ -10,26 +10,32 @@
 
 			</div>
 
+			<div>
+
+				<img src="<?php bloginfo('template_directory') ?>/images/slide2.png" alt="slider">
+
+			</div>
+
 		</div>
 
 		<div class="container">
 
 			<div class="slider-overlay">
 
-				<div>
-					<a href="#todo">
+				<div class="first">
+					<a href="<?php bloginfo() ?>/the-company/">
 						<img src="<?php bloginfo('template_directory') ?>/images/slider-overlay-1.png" alt="Find Contractor Support" title="Find Contractor Support">
 					</a>
 				</div>
 
-				<div>
-					<a href="#todo">
+				<div class="second">
+					<a href="<?php bloginfo() ?>/the-company/">
 						<img src="<?php bloginfo('template_directory') ?>/images/slider-overlay-2.png" alt="Find Skilled Craftsmen" title="Find Skilled Craftsmen">
 					</a>
 				</div>
 
-				<div class="last">
-					<a href="#todo">
+				<div class="third">
+					<a href="<?php bloginfo() ?>/the-company/">
 						<img src="<?php bloginfo('template_directory') ?>/images/slider-overlay-3.png" alt="Find a Dream Job" title="Find a Dream Job">
 					</a>
 				</div>
@@ -50,7 +56,7 @@
 
 					<div class="panel-group" id="accordion">
 
-				        <div class="panel panel-default">
+				        <div class="panel">
 
 				            <div class="panel-heading">
 
@@ -67,20 +73,20 @@
                 				<div class="panel-body">
 
 									<ul>
-										<li><a href="#todo">Contractors</a></li>
-										<li><a href="#todo">Customer Satisfaction</a></li>
-										<li><a href="#todo">Staffing Solutions</a></li>
-										<li><a href="#todo">Safety</a></li>
-										<li><a href="#todo">Partner With CSI</a></li>
-										<li><a href="#todo">Construction Staffing States</a></li>
-										<li><a href="#todo">Electrical Staffing</a></li>
-										<li><a href="#todo">HVAC Mechanical Staffing</a></li>
-										<li><a href="#todo">Plumbing Staffing</a></li>
-										<li><a href="#todo">Welding Staffing</a></li>
-										<li><a href="#todo">Carpentry Staffing</a></li>
-										<li><a href="#todo">Concrete Staffing</a></li>
-										<li><a href="#todo">Iron Work Staffing</a></li>
-										<li><a href="#todo">Metal Work Staffing</a></li>
+										<li><a href="<?php bloginfo() ?><?php bloginfo() ?>/the-company/">Contractors</a></li>
+										<li><a href="<?php bloginfo() ?>/the-company/">Customer Satisfaction</a></li>
+										<li><a href="<?php bloginfo() ?>/the-company/">Staffing Solutions</a></li>
+										<li><a href="<?php bloginfo() ?>/the-company/">Safety</a></li>
+										<li><a href="<?php bloginfo() ?>/the-company/">Partner With CSI</a></li>
+										<li><a href="<?php bloginfo() ?>/the-company/">Construction Staffing States</a></li>
+										<li><a href="<?php bloginfo() ?>/the-company/">Electrical Staffing</a></li>
+										<li><a href="<?php bloginfo() ?>/the-company/">HVAC Mechanical Staffing</a></li>
+										<li><a href="<?php bloginfo() ?>/the-company/">Plumbing Staffing</a></li>
+										<li><a href="<?php bloginfo() ?>/the-company/">Welding Staffing</a></li>
+										<li><a href="<?php bloginfo() ?>/the-company/">Carpentry Staffing</a></li>
+										<li><a href="<?php bloginfo() ?>/the-company/">Concrete Staffing</a></li>
+										<li><a href="<?php bloginfo() ?>/the-company/">Iron Work Staffing</a></li>
+										<li><a href="<?php bloginfo() ?>/the-company/">Metal Work Staffing</a></li>
 									</ul>
 
 								</div>
@@ -89,7 +95,7 @@
 
 				        </div>
 
-				        <div class="panel panel-default">
+				        <div class="panel">
 				            
 				            <div class="panel-heading">
 
@@ -106,20 +112,20 @@
 					            <div class="panel-body">
 
 					            	<ul>
-										<li><a href="#todo">Tradesmen</a></li>
-										<li><a href="#todo">CSI Promise to You</a></li>
-										<li><a href="#todo">Employee Benefits</a></li>
-										<li><a href="#todo">Traveling Tradesmen</a></li>
-										<li><a href="#todo">Tradesmen Job Openings</a></li>
-										<li><a href="#todo">Electricians Apply Online</a></li>
-										<li><a href="#todo">HVAC Mechanical Apply Online</a></li>
-										<li><a href="#todo">Carpenters Apply Online</a></li>
-										<li><a href="#todo">Concrete Masons Apply Online</a></li>
-										<li><a href="#todo">Plumbers Apply Online</a></li>
-										<li><a href="#todo">Iron Workers Apply Online</a></li>
-										<li><a href="#todo">Metal Workers Apply Online</a></li>
-										<li><a href="#todo">Welders Apply Online</a></li>
-										<li><a href="#todo">Helpers Apply Online</a></li>
+										<li><a href="<?php bloginfo() ?>/the-company/">Tradesmen</a></li>
+										<li><a href="<?php bloginfo() ?>/the-company/">CSI Promise to You</a></li>
+										<li><a href="<?php bloginfo() ?>/the-company/">Employee Benefits</a></li>
+										<li><a href="<?php bloginfo() ?>/the-company/">Traveling Tradesmen</a></li>
+										<li><a href="<?php bloginfo() ?>/the-company/">Tradesmen Job Openings</a></li>
+										<li><a href="<?php bloginfo() ?>/the-company/">Electricians Apply Online</a></li>
+										<li><a href="<?php bloginfo() ?>/the-company/">HVAC Mechanical Apply Online</a></li>
+										<li><a href="<?php bloginfo() ?>/the-company/">Carpenters Apply Online</a></li>
+										<li><a href="<?php bloginfo() ?>/the-company/">Concrete Masons Apply Online</a></li>
+										<li><a href="<?php bloginfo() ?>/the-company/">Plumbers Apply Online</a></li>
+										<li><a href="<?php bloginfo() ?>/the-company/">Iron Workers Apply Online</a></li>
+										<li><a href="<?php bloginfo() ?>/the-company/">Metal Workers Apply Online</a></li>
+										<li><a href="<?php bloginfo() ?>/the-company/">Welders Apply Online</a></li>
+										<li><a href="<?php bloginfo() ?>/the-company/">Helpers Apply Online</a></li>
 									</ul>
 
 								</div>
@@ -128,7 +134,7 @@
 
 						</div>
 
-						<div class="panel panel-default">
+						<div class="panel">
 
 							<div class="panel-heading">
 
@@ -145,10 +151,10 @@
 				                <div class="panel-body">
 
 									<ul>
-										<li><a href="#todo">Industrial Staffing</a></li>
-										<li><a href="#todo">Renewable Energy Staffing</a></li>
-										<li><a href="#todo">Institutional Staffing</a></li>
-										<li><a href="#todo">Retail Construction Staffing</a></li>
+										<li><a href="<?php bloginfo() ?>/the-company/">Industrial Staffing</a></li>
+										<li><a href="<?php bloginfo() ?>/the-company/">Renewable Energy Staffing</a></li>
+										<li><a href="<?php bloginfo() ?>/the-company/">Institutional Staffing</a></li>
+										<li><a href="<?php bloginfo() ?>/the-company/">Retail Construction Staffing</a></li>
 									</ul>
 
 								</div>
@@ -159,7 +165,7 @@
 
 				    </div>
 
-				    <a href="#todo">
+				    <a href="<?php bloginfo() ?>/the-company/">
 
 				    	<img src="<?php bloginfo('template_directory') ?>/images/get-the-report.png" alt="Get the Report" title="Get the Report" class="get-the-report">
 
@@ -261,23 +267,5 @@
 		</div><!-- row -->
 
 	</div><!-- container -->
-
-
-	<div class="bottom-row">
-
-		<div class="col-md-3">
-			<a href="#todo">Find Contractor Support</a>
-		</div>
-		<div class="col-md-3">
-			<a href="#todo">Find Skilled Craftsmen</a>
-		</div>
-		<div class="col-md-3">
-			<a href="#todo">Find a Dream Job</a>
-		</div>
-		<div class="col-md-3 last"></div>
-
-	</div>
-
-
 
 <?php get_footer(); ?>

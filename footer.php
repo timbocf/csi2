@@ -8,30 +8,46 @@
  */
 ?>
 
-		</div><!-- container -->
 
-		<div class="container">
+			<div class="bottom-row">
 
-			<footer id="colophon" class="site-footer">
-				<div class="col-md-2">
-					<a href="/privacy-policy/">Privacy Policy</a>
-					<span class="sep"> | </span>
-					<a href="/site-map/">Site Map</a>
+				<div class="col-md-3">
+					<a href="/about<?php bloginfo() ?>/the-company/">Find Contractor Support</a>
 				</div>
-
-				<div class="col-md-7">
-					<ul>
-						<li>Proud Members Of:</li>
-						<li>
-							<img src="<?php bloginfo('template_directory') ?>/images/footer-icons.png">
-						</li>
-					</ul>
+				<div class="col-md-3">
+					<a href="<?php bloginfo() ?>/the-company/">Find Skilled Craftsmen</a>
 				</div>
-
-				<div class="col-md-3 text-right">
-					<a href="http://5pints.com">Site by 5 Pints Productions</a>
+				<div class="col-md-3">
+					<a href="<?php bloginfo() ?>/the-company/">Find a Dream Job</a>
 				</div>
-			</footer><!-- #colophon -->
+				<div class="col-md-3 last"></div>
+
+			</div>		
+
+			<div class="container">
+
+				<footer id="colophon" class="site-footer">
+					<div class="col-md-2">
+						<a href="/privacy-policy/">Privacy Policy</a>
+						<span class="sep"> | </span>
+						<a href="/site-map/">Site Map</a>
+					</div>
+
+					<div class="col-md-7">
+						<ul>
+							<li>Proud Members Of:</li>
+							<li>
+								<img src="<?php bloginfo('template_directory') ?>/images/footer-icons.png">
+							</li>
+						</ul>
+					</div>
+
+					<div class="col-md-3 text-right">
+						<a href="http://5pints.com">Site by 5 Pints Productions</a>
+					</div>
+				</footer><!-- #colophon -->
+
+			</div><!-- container -->
 
 		</div><!-- container -->
 

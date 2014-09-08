@@ -11,16 +11,19 @@
 
 			<div class="bottom-row">
 
-				<div class="col-md-3">
+				<div class="col-md-3 col-xs-offset-1 first">
 					<a href="/about<?php bloginfo() ?>/the-company/">Find Contractor Support</a>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-2 col-xs-offset-1 second">
 					<a href="<?php bloginfo() ?>/the-company/">Find Skilled Craftsmen</a>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-2 third">
 					<a href="<?php bloginfo() ?>/the-company/">Find a Dream Job</a>
 				</div>
-				<div class="col-md-3 last"></div>
+				<div class="col-md-3 last">
+					<span>Contact Us</span>
+					<h3><a href="tel:18886390388">1.888.639.0388</a></h3>
+				</div>
 
 			</div>		
 

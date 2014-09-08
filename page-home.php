@@ -6,6 +6,12 @@
 
 			<div>
 
+				<img src="<?php bloginfo('template_directory') ?>/images/slide3.png" alt="slider">
+
+			</div>
+
+			<div>
+
 				<img src="<?php bloginfo('template_directory') ?>/images/slide1.png" alt="slider">
 
 			</div>
@@ -165,7 +171,7 @@
 
 				    </div>
 
-				    <a href="<?php bloginfo() ?>/the-company/">
+				    <a href="http://constructionstrategiesinc.com/wp-content/uploads/2013/08/IPR_0212_CSI.pdf" target="_blank">
 
 				    	<img src="<?php bloginfo('template_directory') ?>/images/get-the-report.png" alt="Get the Report" title="Get the Report" class="get-the-report">
 
@@ -262,7 +268,7 @@
 
 			</div>
 
-			<div class="clearfix"></div>
+			<!-- <div class="clearfix"></div> -->
 
 		</div><!-- row -->
 

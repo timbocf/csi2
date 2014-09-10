@@ -503,17 +503,6 @@ a:active {
 	display: none;
 }
 
-@media screen and (max-width: 600px) {
-	.menu-toggle,
-	.main-navigation.toggled .nav-menu {
-		display: block;
-	}
-
-	.main-navigation ul {
-		display: none;
-	}
-}
-
 .site-main .comment-navigation,
 .site-main .paging-navigation,
 .site-main .post-navigation {
@@ -1232,14 +1221,16 @@ input[type="search"]:focus {
 }
 
 .left-column h3 {
-	color: #f6ca1d;
+	color: #f6ca1d !important;
+	font-family: Arial, sans-serif !important;
 	font-size: 1.2em;
 	font-weight: 900;
 	text-transform: uppercase;
+	font-style: normal;
 	/*padding: 0;*/
 }
 
-.panel-title {
+h3.panel-title {
 	position: relative;
 }
 
@@ -1331,12 +1322,6 @@ input[type="search"]:focus {
 	top: 20px;
 }
 
-@media and (max-width: 500px) {
-	.home-bio img {
-		display: none;
-	}
-}
-
 .right-column .testimonials {
 	background: url(images/testimonials.png) no-repeat;
 	background-size: 100%;
@@ -1395,46 +1380,38 @@ input[type="search"]:focus {
 
 /** FOOTER **/
 
-@media and (min-width: 751px) {
-	.bottom-row {
-		background: url(images/bottom-row.png) no-repeat;
-		height: 80px;
-		text-align: center;
-		margin-top: -10px;
-		z-index: 1000;
-		padding-top: 1.5em;
-		color: #fff;
-		line-height: 1em;
-	}
 
-	.bottom-row .first a {
-		padding-top: 0.5em;
-		padding-left: 1em;
-		width: 10em;
-	}
-
-	.bottom-row .last {
-		margin: 0 !important;
-		text-align: left;
-		padding-top: 0.1em;
-		padding-left: 3em;
-	}
-
-	.bottom-row .last h3 {
-		padding: 0 0 0 0 !important;
-		margin: 0 !important;
-	}
-
-	.site-footer {
-		line-height: 5em;
-	}
+.bottom-row {
+	background: url(images/bottom-row.png) no-repeat;
+	height: 80px;
+	text-align: center;
+	margin-top: -10px;
+	z-index: 1000;
+	padding-top: 1.5em;
+	color: #fff;
+	line-height: 1em;
 }
 
-@media and (max-width: 750px) {
-	.bottom-row a {
-		height: 3em;
-		border-bottom: 1px solid #eee;
-	}
+.bottom-row .first a {
+	padding-top: 0.5em;
+	padding-left: 1em;
+	width: 10em;
+}
+
+.bottom-row .last {
+	margin: 0 !important;
+	text-align: left;
+	padding-top: 0.1em;
+	padding-left: 3em;
+}
+
+.bottom-row .last h3 {
+	padding: 0 0 0 0 !important;
+	margin: 0 !important;
+}
+
+.site-footer {
+	line-height: 5em;
 }
 
 .bottom-row a {
@@ -1453,7 +1430,7 @@ input[type="search"]:focus {
 }
 
 .site-footer div {
-	border: 1px solid yellow;
+	/*border: 1px solid yellow;*/
 }
 
 .site-footer a {
@@ -1476,4 +1453,32 @@ input[type="search"]:focus {
 
 .site-footer ul li img {
 	padding-left: 6em;
+}
+
+
+
+/** RESPONSIVE **/
+
+@media screen and (max-width: 600px) {
+	.menu-toggle,
+	.main-navigation.toggled .nav-menu {
+		display: block;
+	}
+
+	.main-navigation ul {
+		display: none;
+	}
+}
+
+@media and (max-width: 500px) {
+	.home-bio img {
+		display: none;
+	}
+}
+
+@media and (max-width: 750px) {
+	.bottom-row a {
+		height: 3em;
+		border-bottom: 1px solid #eee;
+	}
 }

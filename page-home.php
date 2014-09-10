@@ -29,19 +29,19 @@
 			<div class="slider-overlay">
 
 				<div class="first">
-					<a href="<?php echo get_home_url('/about/the-company/') ?>">
+					<a href="<?php echo get_home_url() ?>/about/the-company/">
 						<img src="<?php bloginfo('template_directory') ?>/images/slider-overlay-1.png" alt="Find Contractor Support" title="Find Contractor Support">
 					</a>
 				</div>
 
 				<div class="second">
-					<a href="<?php home_url('/about/the-company/') ?>">
+					<a href="<?php echo get_home_url() ?>/about/the-company/">
 						<img src="<?php bloginfo('template_directory') ?>/images/slider-overlay-2.png" alt="Find Skilled Craftsmen" title="Find Skilled Craftsmen">
 					</a>
 				</div>
 
 				<div class="third">
-					<a href="<?php home_url('/about/the-company/') ?>">
+					<a href="<?php echo get_home_url() ?>/about/the-company/">
 						<img src="<?php bloginfo('template_directory') ?>/images/slider-overlay-3.png" alt="Find a Dream Job" title="Find a Dream Job">
 					</a>
 				</div>
@@ -79,20 +79,20 @@
                 				<div class="panel-body">
 
 									<ul>
-										<li><a href="<?php home_url('/about/the-company/') ?>">Contractors</a></li>
-										<li><a href="<?php home_url('/about/the-company/') ?>">Customer Satisfaction</a></li>
-										<li><a href="<?php home_url('/about/the-company/') ?>">Staffing Solutions</a></li>
-										<li><a href="<?php home_url('/about/the-company/') ?>">Safety</a></li>
-										<li><a href="<?php home_url('/about/the-company/') ?>">Partner With CSI</a></li>
-										<li><a href="<?php home_url('/about/the-company/') ?>">Construction Staffing States</a></li>
-										<li><a href="<?php home_url('/about/the-company/') ?>">Electrical Staffing</a></li>
-										<li><a href="<?php home_url('/about/the-company/') ?>">HVAC Mechanical Staffing</a></li>
-										<li><a href="<?php home_url('/about/the-company/') ?>">Plumbing Staffing</a></li>
-										<li><a href="<?php home_url('/about/the-company/') ?>">Welding Staffing</a></li>
-										<li><a href="<?php home_url('/about/the-company/') ?>">Carpentry Staffing</a></li>
-										<li><a href="<?php home_url('/about/the-company/') ?>">Concrete Staffing</a></li>
-										<li><a href="<?php home_url('/about/the-company/') ?>">Iron Work Staffing</a></li>
-										<li><a href="<?php home_url('/about/the-company/') ?>">Metal Work Staffing</a></li>
+										<li><a href="<?php echo get_home_url() ?>/about/the-company/">Contractors</a></li>
+										<li><a href="<?php echo get_home_url() ?>/about/the-company/">Customer Satisfaction</a></li>
+										<li><a href="<?php echo get_home_url() ?>/about/the-company/">Staffing Solutions</a></li>
+										<li><a href="<?php echo get_home_url() ?>/about/the-company/">Safety</a></li>
+										<li><a href="<?php echo get_home_url() ?>/about/the-company/">Partner With CSI</a></li>
+										<li><a href="<?php echo get_home_url() ?>/about/the-company/">Construction Staffing States</a></li>
+										<li><a href="<?php echo get_home_url() ?>/about/the-company/">Electrical Staffing</a></li>
+										<li><a href="<?php echo get_home_url() ?>/about/the-company/">HVAC Mechanical Staffing</a></li>
+										<li><a href="<?php echo get_home_url() ?>/about/the-company/">Plumbing Staffing</a></li>
+										<li><a href="<?php echo get_home_url() ?>/about/the-company/">Welding Staffing</a></li>
+										<li><a href="<?php echo get_home_url() ?>/about/the-company/">Carpentry Staffing</a></li>
+										<li><a href="<?php echo get_home_url() ?>/about/the-company/">Concrete Staffing</a></li>
+										<li><a href="<?php echo get_home_url() ?>/about/the-company/">Iron Work Staffing</a></li>
+										<li><a href="<?php echo get_home_url() ?>/about/the-company/">Metal Work Staffing</a></li>
 									</ul>
 
 								</div>
@@ -118,20 +118,20 @@
 					            <div class="panel-body">
 
 					            	<ul>
-										<li><a href="<?php home_url('/about/the-company/') ?>">Tradesmen</a></li>
-										<li><a href="<?php home_url('/about/the-company/') ?>">CSI Promise to You</a></li>
-										<li><a href="<?php home_url('/about/the-company/') ?>">Employee Benefits</a></li>
-										<li><a href="<?php home_url('/about/the-company/') ?>">Traveling Tradesmen</a></li>
-										<li><a href="<?php home_url('/about/the-company/') ?>">Tradesmen Job Openings</a></li>
-										<li><a href="<?php home_url('/about/the-company/') ?>">Electricians Apply Online</a></li>
-										<li><a href="<?php home_url('/about/the-company/') ?>">HVAC Mechanical Apply Online</a></li>
-										<li><a href="<?php home_url('/about/the-company/') ?>">Carpenters Apply Online</a></li>
-										<li><a href="<?php home_url('/about/the-company/') ?>">Concrete Masons Apply Online</a></li>
-										<li><a href="<?php home_url('/about/the-company/') ?>">Plumbers Apply Online</a></li>
-										<li><a href="<?php home_url('/about/the-company/') ?>">Iron Workers Apply Online</a></li>
-										<li><a href="<?php home_url('/about/the-company/') ?>">Metal Workers Apply Online</a></li>
-										<li><a href="<?php home_url('/about/the-company/') ?>">Welders Apply Online</a></li>
-										<li><a href="<?php home_url('/about/the-company/') ?>">Helpers Apply Online</a></li>
+										<li><a href="<?php echo get_home_url() ?>/about/the-company/">Tradesmen</a></li>
+										<li><a href="<?php echo get_home_url() ?>/about/the-company/">CSI Promise to You</a></li>
+										<li><a href="<?php echo get_home_url() ?>/about/the-company/">Employee Benefits</a></li>
+										<li><a href="<?php echo get_home_url() ?>/about/the-company/">Traveling Tradesmen</a></li>
+										<li><a href="<?php echo get_home_url() ?>/about/the-company/">Tradesmen Job Openings</a></li>
+										<li><a href="<?php echo get_home_url() ?>/about/the-company/">Electricians Apply Online</a></li>
+										<li><a href="<?php echo get_home_url() ?>/about/the-company/">HVAC Mechanical Apply Online</a></li>
+										<li><a href="<?php echo get_home_url() ?>/about/the-company/">Carpenters Apply Online</a></li>
+										<li><a href="<?php echo get_home_url() ?>/about/the-company/">Concrete Masons Apply Online</a></li>
+										<li><a href="<?php echo get_home_url() ?>/about/the-company/">Plumbers Apply Online</a></li>
+										<li><a href="<?php echo get_home_url() ?>/about/the-company/">Iron Workers Apply Online</a></li>
+										<li><a href="<?php echo get_home_url() ?>/about/the-company/">Metal Workers Apply Online</a></li>
+										<li><a href="<?php echo get_home_url() ?>/about/the-company/">Welders Apply Online</a></li>
+										<li><a href="<?php echo get_home_url() ?>/about/the-company/">Helpers Apply Online</a></li>
 									</ul>
 
 								</div>
@@ -157,10 +157,10 @@
 				                <div class="panel-body">
 
 									<ul>
-										<li><a href="<?php home_url('/about/the-company/') ?>">Industrial Staffing</a></li>
-										<li><a href="<?php home_url('/about/the-company/') ?>">Renewable Energy Staffing</a></li>
-										<li><a href="<?php home_url('/about/the-company/') ?>">Institutional Staffing</a></li>
-										<li><a href="<?php home_url('/about/the-company/') ?>">Retail Construction Staffing</a></li>
+										<li><a href="<?php echo get_home_url() ?>/about/the-company/">Industrial Staffing</a></li>
+										<li><a href="<?php echo get_home_url() ?>/about/the-company/">Renewable Energy Staffing</a></li>
+										<li><a href="<?php echo get_home_url() ?>/about/the-company/">Institutional Staffing</a></li>
+										<li><a href="<?php echo get_home_url() ?>/about/the-company/">Retail Construction Staffing</a></li>
 									</ul>
 
 								</div>

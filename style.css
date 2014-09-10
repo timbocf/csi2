@@ -76,6 +76,10 @@ html {
 	-ms-text-size-adjust:     100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
 }
 
+html, body {
+	height: 100%;
+}
+
 *,
 *:before,
 *:after { /* apply a natural box layout model to all elements; see http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
@@ -828,9 +832,15 @@ body {
 	padding-top: 2em;
 }
 
+#page {
+	/*min-height: 100%;*/
+}
+
 .site-content {
 	padding-top: 0;
 	margin-top: 0;
+	/*position: relative;*/
+	padding-bottom: 60px;
 
 	background: #000326; /* Old browsers */
 	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -977,15 +987,18 @@ input[type="search"]:focus {
 .navbar-header, 
 .navbar a {
 	min-height: 45px !important;
-	background: transparent;
+	/*background: transparent;*/
 	color: #fff;
 	padding-top: 0 !important;
 }
 
+
+
 .menu-primary-container {
-	margin: 0;
+	margin: 0 0 0 1.3em;
     position: relative;
     z-index: 1;
+    width: 100%;
 }
 
 .menu-primary-container ul {
@@ -999,7 +1012,7 @@ input[type="search"]:focus {
 	padding-right: 1em;
 	color: #fff;
 	list-style-type: none;
-	margin-right: 22px;
+	margin-right: 25px;
     position: relative;
 }
 
@@ -1061,7 +1074,7 @@ input[type="search"]:focus {
 }
 
 .sub-menu a:hover {
-	color: #dcdce2 !important;
+	color: #C8C8CC !important;
 }
 
 .sub-menu:after {
@@ -1101,7 +1114,7 @@ input[type="search"]:focus {
 /** HOME PAGE **/
 
 .content-wrap {
-	max-height: 901px;
+	/*max-height: 901px;*/
 	margin-top: 15px;
 	border-top: 1px solid #f6ca1d;
 	padding: 0;
@@ -1115,7 +1128,7 @@ input[type="search"]:focus {
 
 .home-slideshow-wrap {
 	position: relative;
-	height: 526px;
+	/*height: 526px;*/
 	width: 100%;
 	padding: 0;
 	margin: 0;
@@ -1177,7 +1190,7 @@ input[type="search"]:focus {
 	padding: 0 !important;
 	line-height: 1.2em;
 	margin: 2px -12px 2px 0;
-	min-height: 100%;
+	/*min-height: 100%;*/
 	/*position: relative;*/
 	background: transparent;
 
@@ -1308,7 +1321,7 @@ h3.panel-title {
 
 .home-bio .headline {
 	width: 500px;
-	height: auto;
+	/*height: auto;*/
 	padding-bottom: 1em;
 }
 
@@ -1380,6 +1393,13 @@ h3.panel-title {
 
 /** FOOTER **/
 
+.footer {
+	position: relative;
+	margin-top: -62px;
+	height: 136px;
+	background: #050e34;
+	clear: both;
+}
 
 .bottom-row {
 	background: url(images/bottom-row.png) no-repeat;
@@ -1476,7 +1496,73 @@ h3.panel-title {
 	}
 }
 
-@media and (max-width: 750px) {
+@media only screen and (max-device-width: 768px){
+	/** HEADER **/
+	.address ul {
+		margin: 1em 0 !important;
+		text-align: left;
+		text-indent: 0;
+		padding: 1em 0 2em;
+	}
+	.address li {
+		display: inline-block;
+	}
+	form {
+		/*width: 70%;*/
+	}
+	.header-phone-social {
+		margin: 0;
+	}
+	.social ul {
+		text-indent: 0;
+		margin: 1em 0;
+	}
+
+	/** HOME PAGE **/
+	.content-wrap {
+		background: transparent;
+		min-height: 100%;
+	}
+	.home-slideshow-wrap {
+		width: auto;
+		height: auto;
+	}
+	.slider-overlay div {
+		float: none;
+		position: inherit;
+	}
+
+	.left-column {
+		background: transparent;
+	}
+	.left-column h3 {
+		font-size: 0.9em;
+		line-height: 1em;
+	}
+	.panel-title a:after {
+		top: -5px;
+	}
+	.left-column .get-the-report {
+		position: inherit;
+		width: 100%;
+	}
+	.right-column {
+		padding: 0 0 0 15px !important;
+		width: 100%;
+	}
+	.home-bio .content {
+		width: 100% !important;
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+	.wire {
+		display: none;
+	}
+
+	/** FOOTER **/
+	.bottom-row {
+		background: none;
+	}
 	.bottom-row a {
 		height: 3em;
 		border-bottom: 1px solid #eee;

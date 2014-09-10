@@ -41,19 +41,19 @@
 
 		<div class="sidebar-links">
 
-			<a href="<?php home_url('/about/the-company/') ?>">
+			<a href="<?php echo get_home_url() ?>/about/the-company/">
 
 				<img src="<?php bloginfo('template_directory') ?>/images/sidebar-links-contractor.png">
 
 			</a>
 
-			<a href="<?php home_url('/about/the-company/') ?>">
+			<a href="<?php echo get_home_url() ?>/about/the-company/">
 
 				<img src="<?php bloginfo('template_directory') ?>/images/sidebar-links-craftsmen.png">
 
 			</a>
 
-			<a href="<?php home_url('/about/the-company/') ?>">
+			<a href="<?php echo get_home_url() ?>/about/the-company/">
 
 				<img src="<?php bloginfo('template_directory') ?>/images/sidebar-links-find-a-career.png">
 

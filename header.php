@@ -103,7 +103,7 @@
 
 			</div>
 
-			<div class="social col-md-3 col-md-offset-6">
+			<div class="social col-md-3 col-md-offset-6 col-xs-12">
 
 				<ul>
 

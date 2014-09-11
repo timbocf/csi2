@@ -1512,6 +1512,18 @@ h3.panel-title {
 /** PHONES, TABLETS **/
 @media only screen and (max-device-width: 768px){
 	/** HEADER **/
+
+	/** NAVIGATION **/
+	.navbar-toggle .icon-bar {
+		color: #fff;
+		background: #fff;
+	}
+	.navigation {
+		height: 55px;
+	}
+
+
+
 	.address ul {
 		margin: 1em 0 !important;
 		text-align: left;

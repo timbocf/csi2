@@ -1475,6 +1475,10 @@ h3.panel-title {
 	padding-left: 6em;
 }
 
+.fivepints {
+	text-align: right;
+}
+
 
 
 /** RESPONSIVE **/
@@ -1585,6 +1589,26 @@ h3.panel-title {
 	}
 	.bottom-row a {
 		height: 3em;
-		border-bottom: 1px solid #eee;
+		/*border-bottom: 1px solid #eee;*/
+	}
+	.bottom-row .first a {
+		padding: 0;
+		width: auto;
+	}
+	.bottom-row .last {
+		padding: 0;
+		text-align: center;
+	}
+	.bottom-row .last h3 {
+		font-style: normal;
+	}
+	.site-footer ul {
+		margin: 0;
+	}
+	.site-footer ul li img {
+		padding: 0;
+	}
+	.fivepints {
+		text-align: left;
 	}
 }

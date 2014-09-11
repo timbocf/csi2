@@ -55,7 +55,7 @@
 						</ul>
 					</div>
 
-					<div class="col-md-3 col-xs-12 text-right">
+					<div class="col-md-3 col-xs-12 fivepints">
 						<a href="http://5pints.com">Site by 5 Pints Productions</a>
 					</div>
 				</footer><!-- footer -->

@@ -197,16 +197,13 @@
 
 				</div>
 
-				<div class="mission_statement">
+				<div class="mission-statement">
 
-					<h3>Our Mission Statement</h3>
+					<h2>Our Mission Statement</h2>
 
-					<div class="mission col-xs-10">
+					<div class="mission col-xs-10 col-xs-offset-1">
 
-						<p><?php the_cfc_field('testimonial', 'testimonial'); ?></p>
-
-						<p><?php the_cfc_field('testimonial', 'name'); ?>, 
-								<?php the_cfc_field('testimonial', 'company'); ?></p>
+						<p><?php the_cfc_field('mission', 'mission-statement'); ?></p>
 
 					</div>
 

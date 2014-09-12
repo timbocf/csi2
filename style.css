@@ -94,7 +94,7 @@ html, body {
 
 body {
 	background: #fff; /* Fallback for when there is no custom background color defined. */
-	overflow-x: hidden;
+	/*overflow-x: hidden;*/
 }
 
 article,
@@ -921,6 +921,11 @@ input[type="search"]:focus {
 	padding-top: 2em;
 }
 
+.header-phone-social h3 {
+	font-style: normal !important;
+	text-shadow: 1px 1px #000;
+}
+
 .social {
 	/*border: 1px solid #333;*/
 }
@@ -1343,11 +1348,22 @@ h3.panel-title {
 .right-column .mission-statement {
 	background: url(images/testimonials.png) no-repeat;
 	background-size: 100%;
-	height: 211px;
+	height: 175px;
+	/*height: 100%;*/
 	text-align: center;
+	font-size: 1.3em;
 	border: 1px solid #333;
 	color: #ffffff;
-	padding-top: 6em;
+	/*padding-top: 6em;*/
+	/*overflow: visible;*/
+}
+
+.right-column .mission-statement h2 {
+	color: #f6ca1d !important;
+}
+
+.mission {
+	height: auto;
 }
 
 .home-services {
@@ -1404,11 +1420,28 @@ h3.panel-title {
 	position: absolute;
 }
 
+.sidebar-links h2:hover {
+	color: #ba1f29 !important;
+}
+
 .sidebar-links .contractors h2 {
 	/*background: url(images/sidebar-links-contractor.png) no-repeat 0 -20px;*/
 	left: 25%;
 	top: 34%;
 	z-index: 100;
+}
+
+.sidebar-links .craftsmen h2 {
+	left: 25%;
+	top: 28%;
+	width: 90%;
+	z-index: 101;
+}
+
+.sidebar-links .find-a-career h2 {
+	left: 35%;
+	top: 32%;
+	z-index: 102;
 }
 
 .sidebar-wrap img {
@@ -1511,7 +1544,7 @@ h3.panel-title {
 /** DESKTOP **/
 @media screen and (min-width: 751px) {
 	.right-column .mission-statement h3 {
-		display: none;
+		/*display: none;*/
 	}
 }
 
@@ -1614,6 +1647,43 @@ h3.panel-title {
 		background-color: #000326;
 		background-image: none;
 		padding-top: 0;
+	}
+
+	/** INTERIOR PAGES **/
+
+	article {
+		position: relative !important;
+	}
+
+	.entry-footer {
+		position: fixed !important;
+		bottom: 0;
+	}
+
+	.sidebar-wrap {
+		border: none;
+		padding-top: 2em;
+		margin: 0;
+	}
+	.sidebar-links a {
+		height: auto;
+		min-height: 100%;
+	}
+
+	.sidebar-links h2 {
+		font-size: 0.7em;
+	}
+
+	.sidebar-links .craftsmen h2 {
+		left: 20%;
+		top: 30%;
+		width: 90%;
+	}
+
+
+	.sidebar-links .find-a-career h2 {
+		left: 35%;
+		top: 34%;
 	}
 
 	/** FOOTER **/

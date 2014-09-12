@@ -26,22 +26,25 @@
 		</div><!-- .entry-content -->
 		<footer class="entry-footer">
 			<?php edit_post_link( __( 'Edit', 'csi2' ), '<span class="edit-link">', '</span>' ); ?>
+
+			<div class="content-footer-caption">
+
+				<img src="<?php bloginfo('template_directory') ?>/images/content-footer-caption.png">
+
+			</div>
+
 		</footer><!-- .entry-footer -->
 	</article><!-- #post-## -->
 
-	<div class="content-footer-caption">
-
-		<img src="<?php bloginfo('template_directory') ?>/images/content-footer-caption.png">
+	
 
 	</div>
 
-	</div>
-
-	<div class="col-md-4 sidebar-wrap">
+	<div class="col-md-4 col-xs-12 sidebar-wrap">
 
 		<div class="sidebar-links">
 
-			<a href="<?php echo get_home_url() ?>/about/the-company/" class="contractors">
+			<a href="<?php echo get_home_url() ?>/contractors/" class="contractors">
 
 				<h2>Contractor Support</h2>
 
@@ -49,13 +52,17 @@
 
 			</a>
 
-			<a href="<?php echo get_home_url() ?>/about/the-company/">
+			<a href="<?php echo get_home_url() ?>/need-skilled-tradespeople-now/" class="craftsmen">
+
+				<h2>Find Skilled Craftsmen</h2>
 
 				<img src="<?php bloginfo('template_directory') ?>/images/sidebar-links-craftsmen.png">
 
 			</a>
 
-			<a href="<?php echo get_home_url() ?>/about/the-company/">
+			<a href="<?php echo get_home_url() ?>/skilled-trades-people/skilled-trades-job-openings/" class="find-a-career">
+
+				<h2>Find A Career</h2>
 
 				<img src="<?php bloginfo('template_directory') ?>/images/sidebar-links-find-a-career.png">
 

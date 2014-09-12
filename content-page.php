@@ -41,7 +41,9 @@
 
 		<div class="sidebar-links">
 
-			<a href="<?php echo get_home_url() ?>/about/the-company/">
+			<a href="<?php echo get_home_url() ?>/about/the-company/" class="contractors">
+
+				<h2>Contractor Support</h2>
 
 				<img src="<?php bloginfo('template_directory') ?>/images/sidebar-links-contractor.png">
 

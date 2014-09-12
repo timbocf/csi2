@@ -74,10 +74,14 @@ html {
 	overflow-y: scroll; /* Keeps page centered in all browsers regardless of content height */
 	-webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
 	-ms-text-size-adjust:     100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+
+	width: 100%;
+	
 }
 
 html, body {
 	height: 100%;
+	
 }
 
 *,
@@ -90,6 +94,7 @@ html, body {
 
 body {
 	background: #fff; /* Fallback for when there is no custom background color defined. */
+	overflow-x: hidden;
 }
 
 article,
@@ -1373,7 +1378,7 @@ h3.panel-title {
 
 /** INTERNAL PAGES **/
 .content-area {
-	padding: 40px;
+	padding: 0 40px;
 	background: #ffffff;
 }
 
@@ -1381,14 +1386,34 @@ h3.panel-title {
 	border-left: 5px solid #d1d3d4;
 }
 
+.sidebar-links {
+	margin-top: -10px;
+}
+
 .sidebar-links a {
 	display: block;
 	padding-bottom: 1em;
+	width: 100%;
+	min-height: 130px;
+	height: auto;
+	position: relative;
+}
+
+.sidebar-links h2 {
+	color: #ffffff !important;
+	position: absolute;
+}
+
+.sidebar-links .contractors h2 {
+	/*background: url(images/sidebar-links-contractor.png) no-repeat 0 -20px;*/
+	left: 25%;
+	top: 34%;
+	z-index: 100;
 }
 
 .sidebar-wrap img {
 	display: block;
-	padding-bottom: 3em;
+	/*padding-bottom: 3em;*/
 }
 
 /** FOOTER **/

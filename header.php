@@ -10,7 +10,8 @@
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+<meta name="viewport" content="width=device-width, initial-scale = 1, maximum-scale=1, user-scalable=no" />
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
@@ -107,17 +108,17 @@
 
 				<ul>
 
-					<li><a href="#careerbuilder" class="careerbuilder">Careerbuilder</a></li>
+					<li><a href="http://www.careerbuilder.com/employerprofile/companydetails.aspx?CompanyDID=CHS5GD629L3DTFLKSJT" class="careerbuilder">Careerbuilder</a></li>
 
-					<li><a href="#facebook" class="facebook">Facebook</a></li>
+					<li><a href="https://www.facebook.com/ConstructionStrategiesInc" class="facebook">Facebook</a></li>
 
-					<li><a href="#twitter" class="twitter">Twitter</a></li>
+					<li><a href="https://twitter.com/CSI_Electrician" class="twitter">Twitter</a></li>
 
-					<li><a href="#google+" class="google">Google+</a></li>
+					<li><a href="https://plus.google.com/u/0/112354101551677739215/posts" class="google">Google+</a></li>
 
-					<li><a href="#email" class="email">Email</a></li>
+					<li><a href="http://constructionstrategiesinc.com/contact-us/" class="email">Email</a></li>
 
-					<li><a href="#maps" class="maps">Maps</a></li>
+					<li><a href="http://constructionstrategiesinc.com/contact-us/" class="maps">Maps</a></li>
 
 				</ul>
 

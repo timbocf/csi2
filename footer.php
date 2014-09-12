@@ -24,13 +24,13 @@
 				<div class="bottom-row">
 
 					<div class="col-md-2 col-md-offset-1 first">
-						<a href="<?php echo get_home_url() ?>/about/the-company/">Find Contractor Support</a>
+						<a href="<?php echo get_home_url() ?>/contractors/">Find Contractor Support</a>
 					</div>
 					<div class="col-md-1 col-md-offset-2 second">
-						<a href="<?php echo get_home_url() ?>/about/the-company/">Find Skilled Craftsmen</a>
+						<a href="<?php echo get_home_url() ?>/need-skilled-tradespeople-now//">Find Skilled Craftsmen</a>
 					</div>
 					<div class="col-md-1 col-md-offset-2 third">
-						<a href="<?php echo get_home_url() ?>/about/the-company/">Find a Dream Job</a>
+						<a href="<?php echo get_home_url() ?>/skilled-trades-people/skilled-trades-job-openings//">Find a Dream Job</a>
 					</div>
 					<div class="col-md-3 last">
 						<span>Contact Us</span>
@@ -56,7 +56,7 @@
 					</div>
 
 					<div class="col-md-3 col-xs-12 fivepints">
-						<a href="http://5pints.com">Site by 5 Pints Productions</a>
+						<a href="http://fivepints.com">Site by 5 Pints Productions</a>
 					</div>
 				</footer><!-- footer -->
 

@@ -197,40 +197,18 @@
 
 				</div>
 
-				<div class="testimonials">
+				<div class="mission_statement">
 
-					<h3>Client Testimonials</h3>
+					<h3>Our Mission Statement</h3>
 
-					<?php   
+					<div class="mission col-xs-10">
 
-							$args = array(
+						<p><?php the_cfc_field('testimonial', 'testimonial'); ?></p>
 
-								'post_type' => 'testimonials',
+						<p><?php the_cfc_field('testimonial', 'name'); ?>, 
+								<?php the_cfc_field('testimonial', 'company'); ?></p>
 
-								'posts_per_page' => -1
-
-							);
-
-							$query = new WP_Query($args);
-
-							if ( $query->have_posts() ) :
-
-								while ($query->have_posts()) : $query->the_post();
-
-									$meta = get_cfc_meta('testimonial');
-
-									foreach($meta as $key => $value) : ?>
-
-									<div class="testimonial col-xs-10">
-
-										<p><?php the_cfc_field('testimonial', 'testimonial'); ?></p>
-
-										<p><?php the_cfc_field('testimonial', 'name'); ?>, 
-												<?php the_cfc_field('testimonial', 'company'); ?></p>
-
-									</div>
-
-					<?php endforeach; endwhile; endif; wp_reset_postdata(); ?>
+					</div>
 
 				</div>
 

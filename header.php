@@ -45,7 +45,7 @@
 
 			<div class="col-xs-6 menu-toggle-button">
 
-				<button class="nav-toggler navbar-toggle toggle-push-left">
+				<button class="nav-toggler toggle-push-left"><!-- REMOVED CLASS: navbar-toggle -->
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>

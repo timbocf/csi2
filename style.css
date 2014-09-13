@@ -1132,60 +1132,43 @@ button.close-menu {
 button.close-menu:focus {
     outline: none
 }
-/* slide menu left and right, push menu left and right */
-nav.slide-menu-left,
-nav.slide-menu-right,
-nav.push-menu-left,
-nav.push-menu-right {
+/* push menu left and right */
+nav.push-menu-left {
     top: 0;
     width: 300px;
     height: 100%;
 }
-nav.slide-menu-left li,
-nav.slide-menu-right li,
-nav.push-menu-left li,
-nav.push-menu-right li {
+nav.push-menu-left li{
     display: block;
     text-align: center;
     border-bottom: solid 1px #3184a1;
     border-top: solid 1px #b5dbe9;
 }
-nav.slide-menu-left li:first-child,
-nav.slide-menu-right li:first-child,
-nav.push-menu-left li:first-child,
-nav.push-menu-right li:first-child {
+nav.push-menu-left li:first-child {
     border-top: none
 }
-nav.slide-menu-left li:last-child,
-nav.slide-menu-right li:last-child,
-nav.push-menu-left li:last-child,
-nav.push-menu-right li:last-child {
+nav.push-menu-left li:last-child {
     border-bottom: none
 }
-nav.slide-menu-left a,
-nav.slide-menu-right a,
-nav.push-menu-left a,
-nav.push-menu-right a {
+nav.push-menu-left a {
     display: block;
     padding: 10px;
     font-size: 18px;
 }
-nav.slide-menu-left button.close-menu,
-nav.slide-menu-right button.close-menu,
-nav.push-menu-left button.close-menu,
-nav.push-menu-right button.close-menu {
+nav.push-menu-left button.close-menu {
     margin: 10px 0;
     padding: 10px 30px;
     background-color: #3184a1;
     color: #fff;
 }
-nav.slide-menu-left,
 nav.push-menu-left {
     left: -300px
 }
-nav.slide-menu-right,
-nav.push-menu-right {
-    right: -300px
+body.pml-open nav.push-menu-left {
+    left: 0
+}
+body.pml-open #wrapper {
+    left: 300px
 }
 
 

@@ -68,7 +68,9 @@
 
 </div><!-- footer -->
 
-		
+<!-- js -->
+<script src="<?php bloginfo('template_directory') ?>/js/classie.js"></script>
+<script src="<?php bloginfo('template_directory') ?>/js/nav.js"></script>
 
 <?php wp_footer(); ?>
 

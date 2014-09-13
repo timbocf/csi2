@@ -23,6 +23,8 @@
 <body <?php body_class(); ?>>
 
 <nav class="menu push-menu-left">
+
+	<button class="close-menu">&larr; Close</button>
     
     <?php wp_nav_menu( array('menu' => 'primary', 'menu_class' => '' )); // Adjust using Menus in Wordpress Admin ?>
 
@@ -35,13 +37,24 @@
 
 		<div class="row">
 
-			<div class="logo col-md-4">
+			<div class="logo col-md-4 col-xs-6">
 
 				<a class="brand" id="logo" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_directory') ?>/images/csi-logo.png" alt="Construction Strategies Inc" title="Construction Strategies Inc"></a>
 
 			</div>
 
-			<div class="address col-md-2">
+			<div class="col-xs-6 menu-toggle-button">
+
+				<button class="nav-toggler navbar-toggle toggle-push-left">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+			</div>
+
+			<div class="address col-md-2 col-xs-12">
 
 				<ul>
 

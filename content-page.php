@@ -8,36 +8,33 @@
 
 <div class="row">
 
-	<div class="col-md-8">
+	<div class="col-md-8 left-column-interior">
 
-	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-		<header class="entry-header">
-			<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-		</header><!-- .entry-header -->
+		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+			<header class="entry-header">
+				<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+			</header><!-- .entry-header -->
 
-		<div class="entry-content">
-			<?php the_content(); ?>
-			<?php
-				wp_link_pages( array(
-					'before' => '<div class="page-links">' . __( 'Pages:', 'csi2' ),
-					'after'  => '</div>',
-				) );
-			?>
-		</div><!-- .entry-content -->
-		<footer class="entry-footer">
-			<?php edit_post_link( __( 'Edit', 'csi2' ), '<span class="edit-link">', '</span>' ); ?>
-
-			<div class="content-footer-caption">
-
-				<img src="<?php bloginfo('template_directory') ?>/images/content-footer-caption.png">
-
-			</div>
-
-		</footer><!-- .entry-footer -->
-	</article><!-- #post-## -->
+			<div class="entry-content">
+				<?php the_content(); ?>
+				<?php
+					wp_link_pages( array(
+						'before' => '<div class="page-links">' . __( 'Pages:', 'csi2' ),
+						'after'  => '</div>',
+					) );
+				?>
+			</div><!-- .entry-content -->
+			<footer class="entry-footer">
+				<?php edit_post_link( __( 'Edit', 'csi2' ), '<span class="edit-link">', '</span>' ); ?>
+			</footer><!-- .entry-footer -->
+		</article><!-- #post-## -->
 
 	
+		<div class="content-footer-caption">
 
+			<img src="<?php bloginfo('template_directory') ?>/images/content-footer-caption.png">
+
+		</div>
 	</div>
 
 	<div class="col-md-4 col-xs-12 sidebar-wrap">
@@ -116,3 +113,28 @@
 	</div>
 
 </div>
+
+<script>
+
+(function($){$(function(){
+
+	$(window).load(function() {
+
+		var sidebarHeight = $('.sidebar-wrap').height();
+
+		var leftColumnInteriorHeight = $('.left-column-interior').height();
+
+		// document.write('<h2>' + leftColumnInteriorHeight + '</h2>')
+
+		if(sidebarHeight < leftColumnInteriorHeight) {
+
+			$('.content-footer-caption').css('padding-top', '1em', '!important');
+
+		}
+
+	});
+
+
+})})(jQuery);
+
+</script>

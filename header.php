@@ -21,6 +21,13 @@
 </head>
 
 <body <?php body_class(); ?>>
+
+<nav class="menu push-menu-left">
+    
+    <?php wp_nav_menu( array('menu' => 'primary', 'menu_class' => '' )); // Adjust using Menus in Wordpress Admin ?>
+
+</nav><!-- /push menu left -->
+
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'csi2' ); ?></a>
 
@@ -135,16 +142,16 @@
 			<div class="col-xs-12">
 				<header class="navbar" role="banner">
 
-					<div class="navbar-header">
+					<!-- <div class="navbar-header">
 						<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
 							<span class="sr-only">Toggle navigation</span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-					</div>
+					</div> -->  <!-- REMOVED RESPONSIVENESS; ADDED PUSH MENU TO TOP -->
 
-					<nav class="collapse navbar-collapse col-xs-12" role="navigation">
+					<nav class="col-xs-12" role="navigation"><!-- REMOVED CLASSES: collapse navbar-collapse -->
 						
 						<?php wp_nav_menu( array('menu' => 'primary', 'menu_class' => '' )); // Adjust using Menus in Wordpress Admin ?>
 

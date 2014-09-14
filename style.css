@@ -1104,11 +1104,10 @@ input[type="search"]:focus {
 }
 
 /** RESPONSIVE PUSH MENU **/
-/* general style for all menus */
 nav.menu {
     position: fixed;
     z-index: 20;
-    background-color: #67b5d1;
+    background-color: #333;
     overflow: hidden;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -1125,9 +1124,29 @@ nav.menu a {
     font-weight: 300;
     color: #fff;
 }
+.nav-toggler {
+	margin-top: 0 !important;
+	/*border: 1px solid #eee !important;*/
+	background: transparent;
+	border: 0;
+	outline: 0;
+}
+.nav-toggler .icon-bar {
+	display: block;
+	width: 22px;
+	height: 4px;
+	margin-bottom: 4px;
+	border-radius: 4px;
+	background: #000326 !important;
+}
 button.close-menu {
-    background-color: #3184a1;
+    background-color: #7A7979;
     color: #fff;
+    margin-left: 90%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    font-weight: 900;
 }
 button.close-menu:focus {
     outline: none
@@ -1141,8 +1160,8 @@ nav.push-menu-left {
 nav.push-menu-left li{
     display: block;
     text-align: center;
-    border-bottom: solid 1px #3184a1;
-    border-top: solid 1px #b5dbe9;
+    border-bottom: solid 1px #7A7979;
+    border-top: solid 1px #ccc;
 }
 nav.push-menu-left li:first-child {
     border-top: none
@@ -1154,12 +1173,6 @@ nav.push-menu-left a {
     display: block;
     padding: 10px;
     font-size: 18px;
-}
-nav.push-menu-left button.close-menu {
-    margin: 10px 0;
-    padding: 10px 30px;
-    background-color: #3184a1;
-    color: #fff;
 }
 nav.push-menu-left {
     left: -300px
@@ -1644,6 +1657,11 @@ h3.panel-title {
 	text-align: right;
 }
 
+/*.menu-toggle-button button {
+	display: block;
+	height: 3em;
+	width: 5em;
+}*/
 
 
 /** RESPONSIVE **/
@@ -1651,7 +1669,7 @@ h3.panel-title {
 /** DESKTOP **/
 @media screen and (min-width: 751px) {
 	.menu-toggle-button {
-		display: none;
+		/*display: none;*/
 	}
 	.push-menu-left {
 		/*display: none;*/
@@ -1686,20 +1704,9 @@ h3.panel-title {
 		width: 50%;
 	}
 
-	/** NAVIGATION **/
-	.navbar-toggle {
-		margin-top: 0 !important;
-		border: 1px solid #eee !important;
-	}
-	.navbar-toggle .icon-bar {
-		/*color: #eee;*/
-		background: #000326 !important;
-	}
 	.navigation {
 		height: 55px;
 	}
-
-
 
 	.address ul {
 		margin: 1em 0 !important;

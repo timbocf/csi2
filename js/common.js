@@ -1,26 +1,10 @@
 (function($){$(function(){
 
-	$('.address').click(function(){
-
-		$('body').addClass('pml-open');
-
-		$('body').append('div');
-
-	});
-
 	$('.toggle-push-left').click(function(){
 
 		$('body').addClass('pml-open');
 
-		$('body').append('div');
-
-	});
-
-	$('.mask').click(function(){
-
-		$('body').removeClass('pml-open');
-
-		$('body').remove('div');
+		// $('body').append('<div class="mask"></div>');
 
 	});
 
@@ -28,7 +12,7 @@
 
 		$('body').removeClass('pml-open');
 
-		$('body').remove('div');
+		// $('.mask').remove();
 
 	});
 

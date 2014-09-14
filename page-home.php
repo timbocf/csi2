@@ -6,19 +6,19 @@
 
 			<div>
 
-				<img src="<?php bloginfo('template_directory') ?>/images/slide3.png" alt="slider">
+				<img src="<?php bloginfo('template_directory') ?>/images/slide3.jpg" alt="slider">
 
 			</div>
 
 			<div>
 
-				<img src="<?php bloginfo('template_directory') ?>/images/slide1.png" alt="slider">
+				<img src="<?php bloginfo('template_directory') ?>/images/slide1.jpg" alt="slider">
 
 			</div>
 
 			<div>
 
-				<img src="<?php bloginfo('template_directory') ?>/images/slide2.png" alt="slider">
+				<img src="<?php bloginfo('template_directory') ?>/images/slide2.jpg" alt="slider">
 
 			</div>
 

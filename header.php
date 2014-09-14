@@ -24,7 +24,11 @@
 
 <nav class="menu push-menu-left">
 
-	<button class="close-menu">&larr; Close</button>
+	<button class="close-menu">
+
+		<img src="<?php bloginfo('template_directory') ?>/images/close-btn.png">
+
+	</button>
     
     <?php wp_nav_menu( array('menu' => 'primary', 'menu_class' => '' )); // Adjust using Menus in Wordpress Admin ?>
 
@@ -45,7 +49,7 @@
 
 			<div class="col-xs-6 menu-toggle-button">
 
-				<button class="nav-toggler navbar-toggle toggle-push-left"><!-- REMOVED CLASS: navbar-toggle -->
+				<button class="nav-toggler toggle-push-left"><!-- REMOVED CLASS: navbar-toggle -->
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
@@ -96,11 +100,11 @@
 
 					<div class="searchform col-md-7 col-md-offset-5">
 
-						<form>
+						<form action="/" method="get">
 
-							<input type="search" class="search" placeholder="Search Here" required>
+							<input type="search" class="search" placeholder="Search Here" required name="s" id="search" value="<?php the_search_query(); ?>">
 
-							<input type="button" class="button" value="Search">
+							<input type="button" class="button" value="Search" alt="Search">
 
 						</form>
 

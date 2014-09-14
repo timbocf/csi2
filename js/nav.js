@@ -1,6 +1,4 @@
-/**
- * The nav stuff
- */
+/** The nav stuff */
 (function( window ){
 	
 	'use strict';

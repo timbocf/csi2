@@ -108,6 +108,8 @@ function csi2_scripts() {
 
 	wp_enqueue_script( 'slideshow-js', get_template_directory_uri() . '/js/slideshow.js', array('jquery'), '20140902', true );
 
+	wp_enqueue_script( 'common-js', get_template_directory_uri() . '/js/common.js', array('jquery'), '20140902', true );
+
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}

@@ -7,6 +7,9 @@
  * @package csi2
  */
 ?>
+
+			</div><!-- main-wrap -->
+
 		</div><!-- container -->
 
 	</div><!-- #content -->

@@ -841,6 +841,11 @@ body {
 	/*min-height: 100%;*/
 }
 
+.main-wrap {
+	background: #ffffff;
+	padding: 0 40px;
+}
+
 .site-content {
 	padding-top: 0;
 	margin-top: 0;
@@ -1495,7 +1500,7 @@ h3.panel-title {
 
 /** INTERNAL PAGES **/
 .content-area {
-	padding: 0 40px;
+	/*padding: 0 40px;*/
 	background: #ffffff;
 }
 
@@ -1785,7 +1790,7 @@ table.industrial-table tr td {
 		display: none;
 	}
 	.right-column .mission-statement {
-		height: auto;
+		height: 20em;
 		background-color: #000326;
 		background-image: none;
 		padding-top: 0;

@@ -23,7 +23,7 @@
 
 		var active = true;
 
-	    if($('window').width() < 1024) {
+	    if ($(window).innerWidth() < 960) {
 
 	        if (active) {
 

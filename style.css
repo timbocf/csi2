@@ -896,10 +896,10 @@ form {
 	/*margin:50px auto;*/
 }
 .searchform .search {
-    padding:8px 15px;
-    background:rgba(50, 50, 50, 0.2);
+    padding:8px 15px !important;
+    background:rgba(50, 50, 50, 0.2) !important;
     /*border:0px solid #dbdbdb;*/
-    border:0px solid #d2232e;
+    border:0px solid #d2232e !important;
 }
 input[type="search"] {
 	outline: none;
@@ -1500,7 +1500,7 @@ h3.panel-title {
 
 /** INTERNAL PAGES **/
 .content-area {
-	/*padding: 0 40px;*/
+	/*padding: 1em;*/
 	background: #ffffff;
 }
 
@@ -1804,9 +1804,6 @@ table.industrial-table tr td {
 	}
 
 	/** INTERIOR PAGES **/
-	.content-area {
-		padding: 0;
-	}
 
 	.sidebar-wrap {
 		border: none;
@@ -1839,7 +1836,12 @@ table.industrial-table tr td {
 		background: none;
 		height: auto;
 		padding-top: 3em;
-		text-align: left;
+	}
+	.bottom-row,
+	.bottom-row a,
+	.bottom-row h3,
+	.bottom-row .last {
+		text-align: left !important;
 	}
 	.bottom-row a {
 		height: 3em;
@@ -1850,8 +1852,7 @@ table.industrial-table tr td {
 		width: auto;
 	}
 	.bottom-row .last {
-		padding: 0;
-		text-align: center;
+		padding-left: 1em;
 	}
 	.bottom-row .last h3 {
 		font-style: normal;

@@ -843,7 +843,7 @@ body {
 
 .main-wrap {
 	background: #ffffff;
-	padding: 0 40px;
+	padding: 40px;
 }
 
 .site-content {
@@ -1579,6 +1579,13 @@ table.industrial-table tr td {
 	padding-right: 0.5em;
 }
 
+/** PRODUCTS PAGES **/
+.products  h3 {
+	font-family: Arial, Helvetica, sans-serif !important;
+	font-style: normal !important;
+	font-weight: 900;
+}
+
 /** FOOTER **/
 
 .footer {
@@ -1831,6 +1838,8 @@ table.industrial-table tr td {
 	.bottom-row {
 		background: none;
 		height: auto;
+		padding-top: 3em;
+		text-align: left;
 	}
 	.bottom-row a {
 		height: 3em;

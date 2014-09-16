@@ -23,16 +23,16 @@
 
 				<div class="bottom-row">
 
-					<div class="col-md-2 col-md-offset-1 first">
+					<div class="col-lg-2 col-lg-offset-1 first">
 						<a href="<?php echo get_home_url() ?>/contractors/">Find Contractor Support</a>
 					</div>
-					<div class="col-md-1 col-md-offset-2 second">
+					<div class="col-lg-1 col-lg-offset-2 second">
 						<a href="<?php echo get_home_url() ?>/need-skilled-tradespeople-now//">Find Skilled Craftsmen</a>
 					</div>
-					<div class="col-md-1 col-md-offset-2 third">
+					<div class="col-lg-1 col-lg-offset-2 third">
 						<a href="<?php echo get_home_url() ?>/skilled-trades-people/skilled-trades-job-openings//">Find a Dream Job</a>
 					</div>
-					<div class="col-md-3 last">
+					<div class="col-lg-3 last">
 						<span>Contact Us</span>
 						<h3><a href="tel:18886390388">1.888.639.0388</a></h3>
 					</div>
@@ -40,13 +40,13 @@
 
 
 				<footer id="colophon" class="site-footer">
-					<div class="col-md-2 col-xs-12">
-						<a href="/privacy-policy/">Privacy Policy</a>
+					<div class="col-lg-2 col-xs-12">
+						<a href="<?php echo get_home_url() ?>/privacy-policy/">Privacy Policy</a>
 						<span class="sep"> | </span>
-						<a href="/site-map/">Site Map</a>
+						<a href="<?php echo get_home_url() ?>/site-map/">Site Map</a>
 					</div>
 
-					<div class="col-md-7 col-xs-12">
+					<div class="col-lg-7 col-xs-12">
 						<ul>
 							<li>Proud Members Of:</li>
 							<li>
@@ -55,7 +55,7 @@
 						</ul>
 					</div>
 
-					<div class="col-md-3 col-xs-12 fivepints">
+					<div class="col-lg-3 col-xs-12 fivepints">
 						<a href="http://fivepints.com">Site by 5 Pints Productions</a>
 					</div>
 				</footer><!-- footer -->

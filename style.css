@@ -890,7 +890,7 @@ form {
 	width:500px;
 	/*margin:50px auto;*/
 }
-.search {
+.searchform .search {
     padding:8px 15px;
     background:rgba(50, 50, 50, 0.2);
     /*border:0px solid #dbdbdb;*/
@@ -1502,6 +1502,7 @@ h3.panel-title {
 .left-column-interior {
 	/*position: relative;*/
 	height: 100%;
+	background: #ffffff;
 }
 
 .left-column-interior .content-footer-caption {
@@ -1513,7 +1514,7 @@ h3.panel-title {
 }
 
 .sidebar-wrap {
-	border-left: 5px solid #d1d3d4;
+	background: url(images/sidebar-border.png) 0 -800px no-repeat;
 }
 
 .sidebar-links {
@@ -1567,6 +1568,10 @@ h3.panel-title {
 .sidebar-wrap .testimonials .slick-next,
 .sidebar-wrap .testimonials .slick-dots {
 	display: none !important;
+}
+
+table.industrial-table tr td {
+	padding-right: 0.5em;
 }
 
 /** FOOTER **/
@@ -1667,9 +1672,9 @@ h3.panel-title {
 /** RESPONSIVE **/
 
 /** DESKTOP **/
-@media screen and (min-width: 751px) {
+@media screen and (min-width: 1025px) {
 	.menu-toggle-button {
-		/*display: none;*/
+		display: none;
 	}
 	.push-menu-left {
 		/*display: none;*/
@@ -1677,31 +1682,42 @@ h3.panel-title {
 }
 
 /** LARGER PHONES, TABLETS **/
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1024px) {
+	.logo-wrap {
+		clear: both;
+	}
+	.logo {
+		display: block;
+		float: left;
+		width: 80%;
+	}
 	.menu-toggle-button {
 		display: block;
+		float: right;
+		width: 20%;
+	}
+
+	.address {
+		clear: both;
 	}
 
 	.navbar,
 	.navbar .main-navigation ul {
 		display: none;
 	}
-}
 
-/** PHONES **/
-@media and (max-width: 500px) {
 	.home-bio img {
 		display: none;
 	}
-}
 
-/** PHONES, TABLETS **/
-@media only screen and (max-device-width: 768px){
+	h1 {
+		font-size: 1.8em !important;
+	}
+
 	/** HEADER **/
-
 	.logo,
 	.logo a {
-		width: 50%;
+		/*width: 50%;*/
 	}
 
 	.navigation {
@@ -1776,6 +1792,9 @@ h3.panel-title {
 	}
 
 	/** INTERIOR PAGES **/
+	.content-area {
+		padding: 0;
+	}
 
 	.sidebar-wrap {
 		border: none;
@@ -1797,11 +1816,11 @@ h3.panel-title {
 		width: 90%;
 	}
 
-
 	.sidebar-links .find-a-career h2 {
 		left: 35%;
 		top: 34%;
 	}
+
 
 	/** FOOTER **/
 	.bottom-row {

@@ -41,24 +41,28 @@
 
 		<div class="row">
 
-			<div class="logo col-md-4 col-xs-6">
+			<div class="logo-wrap">
 
-				<a class="brand" id="logo" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_directory') ?>/images/csi-logo.png" alt="Construction Strategies Inc" title="Construction Strategies Inc"></a>
+				<div class="logo col-lg-4">
+
+					<a class="brand" id="logo" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_directory') ?>/images/csi-logo.png" alt="Construction Strategies Inc" title="Construction Strategies Inc"></a>
+
+				</div>
+
+				<div class="menu-toggle-button">
+
+					<button class="nav-toggler toggle-push-left"><!-- REMOVED CLASS: navbar-toggle -->
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+				</div>
 
 			</div>
 
-			<div class="col-xs-6 menu-toggle-button">
-
-				<button class="nav-toggler toggle-push-left"><!-- REMOVED CLASS: navbar-toggle -->
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-
-			</div>
-
-			<div class="address col-md-2 col-xs-12">
+			<div class="address col-lg-2 col-xs-12">
 
 				<ul>
 
@@ -90,23 +94,25 @@
 				</ul>
 			</div>
 
-			<!-- <div class="col-md-2"></div> -->
+			<!-- <div class="col-lg-2"></div> -->
 
-			<div class="col-md-6">
+			<div class="col-lg-6">
 
 				<img src="<?php bloginfo('template_directory') ?>/images/30-yrs-xp.png" alt="30+ years experience" title="30+ years experience">
 
 				<div class="row">
 
-					<div class="searchform col-md-7 col-md-offset-5">
+					<div class="searchform col-lg-7 col-lg-offset-5">
 
-						<form action="/" method="get">
+							<!-- <input type="search" class="search" placeholder="Search Here"> -->
 
-							<input type="search" class="search" placeholder="Search Here" required name="s" id="search" value="<?php the_search_query(); ?>">
+							<!-- <input type="button" class="button" value="Search" alt="Search"> -->
 
-							<input type="button" class="button" value="Search" alt="Search">
-
-						</form>
+							<form role="search" method="get" id="searchform" class="searchform" action="<?php get_home_url() ?>"> 
+								<!-- <label class="screen-reader-text" for="s">Search for:</label>  -->
+								<input type="search" class="search" name="s" id="s" placeholder="Search Here" /> 
+								<input type="submit" id="searchsubmit" value="Search" class="button" /> 
+							</form>
 
 					</div>
 
@@ -118,7 +124,7 @@
 
 		<div class="row header-phone-social">
 
-			<div class="col-md-3">
+			<div class="col-lg-3">
 
 				<a href="tel:18886390388">
 
@@ -130,7 +136,7 @@
 
 			</div>
 
-			<div class="social col-md-3 col-md-offset-6 col-xs-12">
+			<div class="social col-lg-3 col-lg-offset-6 col-xs-12">
 
 				<ul>
 

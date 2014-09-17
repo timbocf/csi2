@@ -19,33 +19,16 @@
 
 	/** DISABLE ACCORDION MENU IN MOBILE **/
 
-	function() {
-
-		var active = true;
-
 	    if ($(window).innerWidth() < 960) {
 
-	        if (active) {
-
-	            active = false;
-
-	            $('.panel-collapse').collapse('show');
-	            	           
-	        } else {
-
-	            active = true;
-
-	            $('.panel-collapse').collapse('hide');
-
-	        }
-	    });
+            $('.panel-collapse').removeClass('collapse');
+           
+	    };
 	    
-	    $('#accordion').on('show.bs.collapse', function () {
+	    // $('#accordion').on('show.bs.collapse', function () {
 
-	        if (active) $('#accordion .in').collapse('hide');
-	        
-	    });
+	    //     if (active) $('#accordion .in').collapse('hide');
 
-	};
+	    // });
 
 })})(jQuery);

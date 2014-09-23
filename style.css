@@ -1144,6 +1144,8 @@ nav.menu .sub-menu,
 nav.menu ul {
 	height: 100%;
 	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
 }
 nav.menu {
     position: fixed;
@@ -1154,7 +1156,7 @@ nav.menu {
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
-    padding: 10px;
+    padding: 10px 0;
     top: 0;
     width: 300px;
     height: 100%;
@@ -1166,7 +1168,7 @@ nav.menu ul {
 }
 nav.menu a {
     font-weight: 300;
-    color: #fff;
+    color: #eee;
     height: 50px;
     padding: 10px 0;
     display: block;
@@ -1176,8 +1178,8 @@ nav.menu a {
 nav.menu li {
     display: block;
     text-align: center;
-    border-bottom: solid 1px #7A7979;
-    border-top: solid 1px #ccc;
+    border-top: solid 1px #1d1d1d !important;
+    border-bottom: solid 1px #4c4c4c !important;
 }
 nav.menu li:first-child {
     border-top: none
@@ -1224,10 +1226,6 @@ button.close-menu:focus {
 	right: 1em;
 }*/
 nav.menu .dropdown .sub-menu {
-	/*position: absolute;*/
-	/*top: 0;*/
-	/*bottom: 0;*/
-	/*left: -300px;*/
 	display: none;
 }
 
@@ -1245,10 +1243,10 @@ nav.menu .dropdown .sub-menu {
 }
 nav.menu .sub-menu .menu-item {
 	background: #555 !important;
-	border-bottom: 2px solid #333;
+	/*border-bottom: 2px solid #333;*/
 }
-nav.menu .sub-menu .menu-item ul li a {
-	color: #333 !important;
+nav.menu .sub-menu .menu-item a {
+	color: #b5b5b5 !important;
 	padding: 14px 15px;
 }
 

@@ -8,13 +8,13 @@
  */
 ?>
 
-			</div><!-- main-wrap -->
+			<!-- </div> --><!-- main-wrap -->
 
 		</div><!-- container -->
 
 	</div><!-- #content -->
 
-</div><!-- #page -->	
+</div><!-- #page -->
 
 <div class="footer">
 

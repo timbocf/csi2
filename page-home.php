@@ -30,19 +30,19 @@
 
 				<div class="first">
 					<a href="<?php echo get_home_url() ?>/contractors/">
-						<img src="<?php bloginfo('template_directory') ?>/images/slider-overlay-1.png" alt="Find Contractor Support" title="Find Contractor Support">
+						<img src="<?php bloginfo('template_directory') ?>/images/slider-overlay-1.gif" alt="Find Contractor Support" title="Find Contractor Support">
 					</a>
 				</div>
 
 				<div class="second">
 					<a href="<?php echo get_home_url() ?>/need-skilled-tradespeople-now/">
-						<img src="<?php bloginfo('template_directory') ?>/images/slider-overlay-2.png" alt="Find Skilled Craftsmen" title="Find Skilled Craftsmen">
+						<img src="<?php bloginfo('template_directory') ?>/images/slider-overlay-2.gif" alt="Find Skilled Craftsmen" title="Find Skilled Craftsmen">
 					</a>
 				</div>
 
 				<div class="third">
 					<a href="<?php echo get_home_url() ?>/skilled-trades-people/skilled-trades-job-openings/">
-						<img src="<?php bloginfo('template_directory') ?>/images/slider-overlay-3.png" alt="Find a Dream Job" title="Find a Dream Job">
+						<img src="<?php bloginfo('template_directory') ?>/images/slider-overlay-3.gif" alt="Find a Dream Job" title="Find a Dream Job">
 					</a>
 				</div>
 
@@ -99,7 +99,7 @@
 
 				            </div>
 
-				        </div>
+				        </div><!-- panel -->
 
 				        <div class="panel">
 				            
@@ -138,7 +138,7 @@
 
 							</div>
 
-						</div>
+						</div><!-- panel -->
 
 						<div class="panel">
 
@@ -163,13 +163,13 @@
 										<li><a href="<?php echo get_home_url() ?>/retail-construction/">Retail Construction Staffing</a></li>
 									</ul>
 
-								</div>
+								</div><!-- panel-body -->
 
-				            </div>
+				            </div><!-- collapseThree -->
 
-				        </div>
+				        </div><!-- panel -->
 
-				    </div>
+				    </div><!-- panel-group -->
 
 				    <a href="http://constructionstrategiesinc.com/wp-content/uploads/2013/08/IPR_0212_CSI.pdf" target="_blank">
 
@@ -177,15 +177,17 @@
 
 				    </a>
 
-				</div>
+				</div><!-- left-column -->
 
-			</div>
+			</div><!-- col-md-4 -->
 
 			<div class="col-md-8 right-column">
 
 				<div class="home-bio">
 
-					<img src="<?php bloginfo('template_directory') ?>/images/welcome-to-construction-strategies.png" alt="Welcome to Construction Strategies, Inc." title="Welcome to Construction Strategies, Inc." class="headline">
+					<!-- <img src="<?php bloginfo('template_directory') ?>/images/welcome-to-construction-strategies.png" alt="Welcome to Construction Strategies, Inc." title="Welcome to Construction Strategies, Inc." class="headline"> -->
+
+					<h2 class="headline">Welcome to Construction Strategies Inc.</h2>
 
 					<div class="content">
 
@@ -195,7 +197,7 @@
 
 					<img src="<?php bloginfo('template_directory') ?>/images/wire.png" alt="wire" class="wire">
 
-				</div>
+				</div><!-- home-bio -->
 
 				<div class="mission-statement">
 
@@ -205,13 +207,15 @@
 
 						<p><?php the_cfc_field('mission', 'mission-statement'); ?></p>
 
-					</div>
+					</div><!-- mission -->
 
-				</div>
+				</div><!-- mission-statement -->
 
 				<div class="home-services">
 
-					<img src="<?php bloginfo('template_directory') ?>/images/top-quality-labor-support.png" class="headline" alt="Top Quality Labor Support" title="Top Quality Labor Support">
+					<!-- <img src="<?php bloginfo('template_directory') ?>/images/top-quality-labor-support.png" class="headline" alt="Top Quality Labor Support" title="Top Quality Labor Support"> -->
+
+					<h1>Top Quality Labor Support</h1>
 
 					<div class="row">
 
@@ -237,18 +241,20 @@
 							</li>
 						</ul>
 
-						<img src="<?php bloginfo('template_directory') ?>/images/workers.png" alt="Construction Workers" title="Construction Workers" class="col-md-6">
+						<img src="<?php bloginfo('template_directory') ?>/images/workers.gif" alt="Construction Workers" title="Construction Workers" class="col-md-6">
 
-					</div>
+					</div><!-- row -->
 
-				</div>
+				</div><!-- home-services -->
 
-			</div>
+				<div class="clearfix"></div>
 
-			<!-- <div class="clearfix"></div> -->
+			</div><!-- right-column -->
+
+			
 
 		</div><!-- row -->
 
-	</div><!-- container -->
+	</div> <!-- content-wrap -->
 
 <?php get_footer(); ?>

@@ -4,7 +4,7 @@
 
 			autoplay: true,
 
-			dots: true,
+			dots: false,
 
 			arrows: true,
 
@@ -18,7 +18,7 @@
 
 			autoplay: true,
 
-			dots: true,
+			dots: false,
 
 			arrows: true,
 

@@ -9,7 +9,7 @@
 ?>
 
 
-<div class="col-md-8">
+<div class="search-results-wrap">
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		<header class="entry-header">
 			<?php the_title( sprintf( '<h4 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h4>' ); ?>
@@ -55,4 +55,4 @@
 			<?php // edit_post_link( __( 'Edit', 'csi2' ), '<span class="edit-link">', '</span>' ); ?>
 		</footer><!-- .entry-footer -->
 	</article><!-- #post-## -->
-</div><!-- col-md-8 -->
+</div><!-- search-results -->

@@ -22,7 +22,7 @@
 
 <body <?php body_class(); ?>>
 
-<nav class="menu push-menu-left">
+<nav class="menu">
 
 	<button class="close-menu">
 
@@ -51,7 +51,7 @@
 
 				<div class="menu-toggle-button">
 
-					<button class="nav-toggler toggle-push-left"><!-- REMOVED CLASS: navbar-toggle -->
+					<button class="toggle-menu"><!-- REMOVED CLASS: navbar-toggle -->
 						<span class="sr-only">Toggle navigation</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
@@ -108,7 +108,7 @@
 
 							<!-- <input type="button" class="button" value="Search" alt="Search"> -->
 
-							<form role="search" method="get" id="searchform" class="searchform" action="<?php get_home_url() ?>"> 
+							<form role="search" method="get" id="searchform" class="searchform" action="<?php echo get_home_url() ?>"> 
 								<!-- <label class="screen-reader-text" for="s">Search for:</label>  -->
 								<input type="search" class="search" name="s" id="s" placeholder="Search Here" /> 
 								<input type="submit" id="searchsubmit" value="Search" class="button" /> 

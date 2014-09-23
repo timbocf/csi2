@@ -36,8 +36,8 @@
 
 				<img src="<?php bloginfo('template_directory') ?>/images/content-footer-caption.png">
 
-			</div>
-		</div>
+			</div><!-- content-footer-caption -->
+		</div><!-- left-column-interior -->
 
 		<div class="col-md-4 col-xs-12 sidebar-wrap">
 
@@ -55,7 +55,7 @@
 
 					<h2>Find Skilled Craftsmen</h2>
 
-					<img src="<?php bloginfo('template_directory') ?>/images/sidebar-links-craftsmen.png">
+					<img src="<?php bloginfo('template_directory') ?>/images/sidebar-links-craftsmen.jpg">
 
 				</a>
 
@@ -63,11 +63,11 @@
 
 					<h2>Find A Career</h2>
 
-					<img src="<?php bloginfo('template_directory') ?>/images/sidebar-links-find-a-career.png">
+					<img src="<?php bloginfo('template_directory') ?>/images/sidebar-links-find-a-career.jpg">
 
 				</a>
 
-			</div>
+			</div><!-- sidebar-links -->
 
 			<div class="sidebar-image">
 
@@ -110,13 +110,13 @@
 
 				<?php endforeach; endwhile; endif; wp_reset_postdata(); ?>
 
-			</div>
+			</div><!-- testimonials -->
 
-		</div>
+		</div><!-- sidebar-wrap -->
 
-	</div>
+	</div><!-- row -->
 
-</div>
+</div><!-- main-wrap -->
 
 <script>
 

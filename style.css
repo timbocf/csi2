@@ -1215,14 +1215,14 @@ button.close-menu:focus {
 }
 
 
-nav.menu .dropdown:after {
+/*nav.menu .dropdown a:after {
 	content: '>';
 	color: #fff;
 	font-size: 2em;
 	position: absolute;
 	top: 20%;
 	right: 1em;
-}
+}*/
 nav.menu .dropdown .sub-menu {
 	/*position: absolute;*/
 	/*top: 0;*/

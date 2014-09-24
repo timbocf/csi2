@@ -34,7 +34,7 @@
 		
 			<div class="content-footer-caption">
 
-				<img src="<?php bloginfo('template_directory') ?>/images/content-footer-caption.png">
+				<img src="<?php bloginfo('template_directory') ?>/images/content-footer-caption.png" alt="Caption">
 
 			</div><!-- content-footer-caption -->
 		</div><!-- left-column-interior -->
@@ -47,7 +47,7 @@
 
 					<h2>Contractor Support</h2>
 
-					<img src="<?php bloginfo('template_directory') ?>/images/sidebar-links-contractor.png">
+					<img src="<?php bloginfo('template_directory') ?>/images/sidebar-links-contractor.png" alt="Contractors">
 
 				</a>
 
@@ -55,7 +55,7 @@
 
 					<h2>Find Skilled Craftsmen</h2>
 
-					<img src="<?php bloginfo('template_directory') ?>/images/sidebar-links-craftsmen.jpg">
+					<img src="<?php bloginfo('template_directory') ?>/images/sidebar-links-craftsmen.jpg" alt="Craftsmen">
 
 				</a>
 
@@ -63,7 +63,7 @@
 
 					<h2>Find A Career</h2>
 
-					<img src="<?php bloginfo('template_directory') ?>/images/sidebar-links-find-a-career.jpg">
+					<img src="<?php bloginfo('template_directory') ?>/images/sidebar-links-find-a-career.jpg" alt="Find a Career">
 
 				</a>
 
@@ -71,7 +71,7 @@
 
 			<div class="sidebar-image">
 
-				<img src="<?php bloginfo('template_directory') ?>/images/sidebar-image.png">
+				<img src="<?php bloginfo('template_directory') ?>/images/sidebar-image.png" alt="Image">
 
 			</div>
 

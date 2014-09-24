@@ -53,7 +53,7 @@
 						<ul>
 							<li>Proud Members Of:</li>
 							<li>
-								<img src="<?php bloginfo('template_directory') ?>/images/footer-icons.png">
+								<img src="<?php bloginfo('template_directory') ?>/images/footer-icons.png" alt="Affiliation Icons">
 							</li>
 						</ul>
 					</div>

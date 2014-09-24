@@ -1032,15 +1032,17 @@ input[type="search"]:focus {
 }
 
 .navbar .menu-primary-container {
-	margin: 0 0 0 1.3em;
-    position: relative;
-    z-index: 1;
+	/*margin: 0 0 0 1.3em;*/
+    background: transparent;
     width: 100%;
+
+    z-index: 1001;
+	/*position: relative;*/
 }
 
 .navbar .menu-primary-container ul {
 	list-style-type: none;
-	margin-left: -2em;
+	/*margin-left: -2em;*/
 	text-indent: 0;
 }
 
@@ -1063,7 +1065,7 @@ input[type="search"]:focus {
 	color: #1d3f78;
 }
 
-.navbar .menu-primary-container:before {
+/*.navbar .menu-primary-container:before {
     content:'';
     display: block;
     position: absolute;
@@ -1072,7 +1074,7 @@ input[type="search"]:focus {
     background: #202020;
     z-index: -1;
     top: -5px;
-}
+}*/
 
 .navbar .dropdown {
 	padding-right: 20px;
@@ -1104,11 +1106,12 @@ input[type="search"]:focus {
     display: none;
     background: #1d3f78;
     color: #FFF;
-    left: 50%;
+    left: 10%;
     position: absolute;
     padding: 0 10px;
     top: 130%;
     width: 200px;
+    z-index: 1002;
 }
 
 .navbar .sub-menu a:hover {
@@ -1170,14 +1173,14 @@ nav.menu a {
     font-weight: 300;
     color: #eee;
     height: 50px;
-    padding: 10px 0;
+    padding: 12px 15px 0;
     display: block;
     /*padding: 10px;*/
     font-size: 18px;
 }
 nav.menu li {
     display: block;
-    text-align: center;
+    text-align: left;
     border-top: solid 1px #1d1d1d !important;
     border-bottom: solid 1px #4c4c4c !important;
 }
@@ -1185,7 +1188,14 @@ nav.menu li:first-child {
     border-top: none
 }
 nav.menu li:last-child {
-    border-bottom: none
+    border-bottom: none;
+}
+nav.menu .dropdown {
+	background: url(images/plus-icon.gif) no-repeat;
+    background-position: 100% 0;
+}
+nav.menu .dropdown a:hover {
+	text-decoration: none !important;
 }
 
 
@@ -1206,11 +1216,16 @@ nav.menu li:last-child {
 button.close-menu {
     background-color: #7A7979;
     color: #fff;
-    margin-left: 90%;
+    /*margin-left: 240px;*/
     border: 0;
     outline: 0;
     background: transparent;
     font-weight: 900;
+    padding: 10px 10px 15px 15px;
+}
+button.close-menu img {
+	width: 20px;
+	height: 20px;
 }
 button.close-menu:focus {
     outline: none
@@ -1979,4 +1994,14 @@ Form layout
 .gform_body h5 {
 	font-weight: 900;
 	text-decoration: underline;
+}
+
+/*-------------------------------------------------------------
+Login Screen
+-------------------------------------------------------------*/
+.login h1 a {
+	background: url(images/5P_logo.png) no-repeat !important;
+	background-size: contain;
+	width: 300px;
+	height: 138px;
 }

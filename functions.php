@@ -136,8 +136,17 @@ require get_template_directory() . '/inc/extras.php';
  */
 require get_template_directory() . '/inc/customizer.php';
 
-/**
- * Load Jetpack compatibility file.
- */
-require get_template_directory() . '/inc/jetpack.php';
 
+function my_login_logo() { ?>
+    <style type="text/css">
+        body.login div#login h1 a {
+            background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/images/5P_logo.png);
+            padding-bottom: 30px;
+            /*background: url(images/5P_logo.png) no-repeat !important;*/
+			background-size: contain;
+			width: 300px;
+			height: 138px;
+		        }
+    </style>
+<?php }
+add_action( 'login_enqueue_scripts', 'my_login_logo' );

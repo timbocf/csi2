@@ -26,7 +26,7 @@
 
 	<button class="close-menu">
 
-		<img src="<?php bloginfo('template_directory') ?>/images/close-btn.png">
+		<img src="<?php bloginfo('template_directory') ?>/images/close-btn.png" alt="Close Button">
 
 	</button>
     
@@ -162,19 +162,10 @@
 
 	<div class="navigation">
 		<div class="container">
-			<div class="col-xs-12">
+			<div class="row">
 				<header class="navbar" role="banner">
 
-					<!-- <div class="navbar-header">
-						<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-					</div> -->  <!-- REMOVED RESPONSIVENESS; ADDED PUSH MENU TO TOP -->
-
-					<nav class="col-xs-12" role="navigation"><!-- REMOVED CLASSES: collapse navbar-collapse -->
+					<nav role="navigation">
 						
 						<?php wp_nav_menu( array('menu' => 'primary', 'menu_class' => '' )); // Adjust using Menus in Wordpress Admin ?>
 

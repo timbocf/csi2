@@ -515,6 +515,7 @@ a:active {
 .site-main {
 	padding: 1em 0;
 	margin-top: 2em\9; /* IE fix */
+	margin-top: 2em;
 }
 
 @-moz-document url-prefix() { 

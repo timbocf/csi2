@@ -64,34 +64,37 @@
 
 			<div class="address col-lg-2 col-xs-12">
 
-				<ul>
+				<a href="/contact-us/">
 
-					<?php 
+					<ul>
 
-						$args = array(
+						<?php 
 
-							'post_type' => 'addresses',
+							$args = array(
 
-							'posts_per_page' => -1
+								'post_type' => 'addresses',
 
-						);
+								'posts_per_page' => -1
 
-						$query = new WP_Query($args);
+							);
 
-						while($query->have_posts() ) :
+							$query = new WP_Query($args);
 
-							$query->the_post();
+							while($query->have_posts() ) :
 
-							if(get_the_title() === 'Head Office') :
+								$query->the_post();
 
-					?>
+								if(get_the_title() === 'Head Office') :
 
-					<li><?php the_cfc_field('address', 'street-address') ?></li>
-					<li><?php the_cfc_field('address', 'aptsuiteunit') ?></li>
-					<li><?php the_cfc_field('address', 'city-state-zip') ?></li>
+						?>
 
-					<?php endif; endwhile; wp_reset_postdata(); ?>
-				</ul>
+						<li><?php the_cfc_field('address', 'street-address') ?></li>
+						<li><?php the_cfc_field('address', 'aptsuiteunit') ?></li>
+						<li><?php the_cfc_field('address', 'city-state-zip') ?></li>
+
+						<?php endif; endwhile; wp_reset_postdata(); ?>
+					</ul>
+				</a>
 			</div>
 
 			<!-- <div class="col-lg-2"></div> -->
@@ -124,19 +127,19 @@
 
 		<div class="row header-phone-social">
 
-			<div class="col-lg-3">
+			<div class="col-lg-4">
 
 				<a href="tel:18886390388">
 
-					<img src="<?php bloginfo('template_directory') ?>/images/header-phone-link.png" alt="1-888-639-0388" title="1-888-639-0388">
+					<!-- <img src="<?php bloginfo('template_directory') ?>/images/header-phone-link.png" alt="1-888-639-0388" title="1-888-639-0388"> -->
 
-					<!-- <h3>1.888.639.0388</h3> -->
+					<h3>1 (888) 639-0388</h3>
 
 				</a>
 
 			</div>
 
-			<div class="social col-lg-3 col-lg-offset-6 col-xs-12">
+			<div class="social col-lg-3 col-lg-offset-5 col-xs-12">
 
 				<ul>
 

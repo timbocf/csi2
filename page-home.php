@@ -6,12 +6,6 @@
 
 			<div>
 
-				<img src="<?php bloginfo('template_directory') ?>/images/slide3.jpg" alt="slider">
-
-			</div>
-
-			<div>
-
 				<img src="<?php bloginfo('template_directory') ?>/images/slide1.jpg" alt="slider">
 
 			</div>
@@ -19,6 +13,18 @@
 			<div>
 
 				<img src="<?php bloginfo('template_directory') ?>/images/slide2.jpg" alt="slider">
+
+			</div>
+
+			<div>
+
+				<img src="<?php bloginfo('template_directory') ?>/images/slide3.jpg" alt="slider">
+
+			</div>
+
+			<div>
+
+				<img src="<?php bloginfo('template_directory') ?>/images/slide4.jpg" alt="slider">
 
 			</div>
 

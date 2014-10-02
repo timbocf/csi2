@@ -101,10 +101,9 @@
 
 								<div class="testimonial col-xs-10">
 
-									<p><?php the_cfc_field('testimonial', 'testimonial'); ?></p>
+									<p class="testimonial-testimonial"><?php the_cfc_field('testimonial', 'testimonial'); ?></p>
 
-									<p><?php the_cfc_field('testimonial', 'name'); ?>, 
-											<?php the_cfc_field('testimonial', 'company'); ?></p>
+									<p class="testimonial-name"><?php the_cfc_field('testimonial', 'name'); ?>, <?php the_cfc_field('testimonial', 'company'); ?></p>
 
 								</div>
 

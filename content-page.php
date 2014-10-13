@@ -15,7 +15,7 @@
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 				<header class="entry-header">
 					<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-					<?php echo do_shortcode('[juiz_sps buttons="facebook, twitter, google, linkedin, mail"]') ?>
+					<?php echo do_shortcode('[juiz_sps buttons="facebook, twitter, linkedin, digg, pinterest, stumbleupon, mail"]') ?>
 				</header><!-- .entry-header -->
 
 				<div class="entry-content">

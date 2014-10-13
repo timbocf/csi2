@@ -18,6 +18,7 @@
 <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
 
 <?php wp_head(); ?>
+
 </head>
 
 <body <?php body_class(); ?>>
@@ -139,7 +140,7 @@
 
 			</div>
 
-			<div class="social col-lg-3 col-lg-offset-5 col-xs-12">
+			<div class="social col-lg-3 col-lg-offset-5">
 
 				<ul>
 
@@ -149,7 +150,7 @@
 
 					<li><a href="https://twitter.com/CSI_Electrician" class="twitter" target="_blank">Twitter</a></li>
 
-					<li><a href="https://plus.google.com/u/0/112354101551677739215/posts" class="google" target="_blank">Google+</a></li>
+					<!-- <li><a href="https://plus.google.com/u/0/112354101551677739215/posts" class="google" target="_blank">Google+</a></li> -->
 
 					<li><a href="<?php echo get_home_url() ?>/contact-us/" class="email">Email</a></li>
 

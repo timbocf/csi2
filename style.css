@@ -856,7 +856,7 @@ h1, h2, h3 {
 }
 
 body {
-	padding-top: 2em;
+	padding-top: 1em;
 }
 
 .clearfix:after {
@@ -970,7 +970,7 @@ input[type="search"]:focus {
 
 
 .header-phone-social {
-	padding-top: 2em;
+	padding-top: 1em;
 	position: relative;
 }
 
@@ -998,16 +998,16 @@ input[type="search"]:focus {
 .social {
 	/*border: 1px solid #333;*/
 	margin-top: 7px;
-	position: absolute;
-	right: 0;
-	width: 500px;
+	position: relative;
+	
 }
 
 .social ul {
+	position: absolute;
+	right: 0;
 	list-style-type: none;
-	margin-left: 0;
-	padding-left: 0;
 	text-indent: 0;
+	width: 130px;
 }
 
 .social a {
@@ -1023,7 +1023,8 @@ input[type="search"]:focus {
 }
 
 .careerbuilder {
-	width: 92px !important;
+	/*width: 92px !important;*/
+	width: 0 !important;
 	/*background-image: url(images/social.png);*/
 	background-position: 0 -1px;
 }
@@ -1057,7 +1058,7 @@ input[type="search"]:focus {
 
 .navigation {
 	background: #d2232e;
-	margin-top: 2em;
+	margin-top: 1em;
 	height: 45px;
 	width: 100%;
 	border-top: 1px solid #e8bb13;
@@ -1405,6 +1406,7 @@ nav.menu .sub-menu .menu-item a {
 
 .slider-overlay .third {
 	right: 10px;
+	bottom: 5px;
 }
 
 
@@ -1455,7 +1457,6 @@ nav.menu .sub-menu .menu-item a {
 
 .panel {
 	width: 100%;
-
 }
 
 .panel-heading {
@@ -1469,7 +1470,7 @@ nav.menu .sub-menu .menu-item a {
 .left-column h3 {
 	color: #f6ca1d !important;
 	font-family: Arial, sans-serif !important;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	font-weight: 900;
 	text-transform: uppercase;
 	font-style: normal;
@@ -1739,6 +1740,10 @@ table.industrial-table tr td {
 	padding-top: 0.5em;
 	padding-left: 1em;
 	width: 10em;
+}
+
+.bottom-row .third a {
+	padding-top: 0.5em;
 }
 
 .bottom-row .last {

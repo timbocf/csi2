@@ -48,7 +48,7 @@
 
 				<div class="third">
 					<a href="<?php echo get_home_url() ?>/skilled-trades-people/skilled-trades-job-openings/">
-						<img src="<?php bloginfo('template_directory') ?>/images/slider-overlay-3.gif" alt="Find a Dream Job" title="Find a Dream Job">
+						<img src="<?php bloginfo('template_directory') ?>/images/slider-overlay-3.jpg" alt="Find a Career" title="Find a Career">
 					</a>
 				</div>
 

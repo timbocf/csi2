@@ -33,7 +33,7 @@
 						<a href="<?php echo get_home_url() ?>/need-skilled-tradespeople-now//">Find Skilled Craftsmen</a>
 					</div>
 					<div class="col-lg-1 col-lg-offset-2 third">
-						<a href="<?php echo get_home_url() ?>/skilled-trades-people/skilled-trades-job-openings//">Find a Dream Job</a>
+						<a href="<?php echo get_home_url() ?>/skilled-trades-people/skilled-trades-job-openings/">Find a Career</a>
 					</div>
 					<div class="col-lg-3 last">
 						<span>Contact Us</span>

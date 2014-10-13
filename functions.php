@@ -92,6 +92,9 @@ add_action( 'widgets_init', 'csi2_widgets_init' );
  * Enqueue scripts and styles.
  */
 function csi2_scripts() {
+
+	global $wp_styles;
+
 	wp_enqueue_style( 'csi2-style', get_stylesheet_uri() );
 
 	//wp_enqueue_script( 'csi2-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
@@ -109,6 +112,10 @@ function csi2_scripts() {
 	wp_enqueue_script( 'slideshow-js', get_template_directory_uri() . '/js/slideshow.js', array('jquery'), '20140902', true );
 
 	wp_enqueue_script( 'common-js', get_template_directory_uri() . '/js/common.js', array('jquery'), '20140902', true );
+
+	wp_enqueue_style( 'my-theme-ie', get_stylesheet_directory_uri() . "ie-stylesheet.css", array( 'my-theme' )  );
+
+    $wp_styles->add_data( 'my-theme-ie', 'conditional', 'IE' );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

@@ -15,6 +15,7 @@
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 				<header class="entry-header">
 					<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+					<?php echo do_shortcode('[juiz_sps buttons="facebook, twitter, google, linkedin, mail"]') ?>
 				</header><!-- .entry-header -->
 
 				<div class="entry-content">
@@ -71,7 +72,7 @@
 
 			<div class="sidebar-image">
 
-				<img src="<?php bloginfo('template_directory') ?>/images/sidebar-image.png" alt="Image">
+				<img src="<?php // bloginfo('template_directory') ?>/images/sidebar-image.png" alt="Image" id="random-sidebar-image">
 
 			</div>
 
@@ -103,7 +104,7 @@
 
 									<p class="testimonial-testimonial"><?php the_cfc_field('testimonial', 'testimonial'); ?></p>
 
-									<p class="testimonial-name"><?php the_cfc_field('testimonial', 'name'); ?>, <?php the_cfc_field('testimonial', 'company'); ?></p>
+									<p class="testimonial-name"><?php the_cfc_field('testimonial', 'name'); ?>,<br /><?php the_cfc_field('testimonial', 'company'); ?></p>
 
 								</div>
 
@@ -139,5 +140,30 @@
 
 
 })})(jQuery);
+
+</script>
+
+<script type="text/javascript">
+	function Randomize() {
+
+	    var images = new Array(
+
+	    	"http://5ivepints.com/proofs/web/csi2/wp-content/themes/csi2/images/sidebar/one.png",
+	    	"http://5ivepints.com/proofs/web/csi2/wp-content/themes/csi2/images/sidebar/two.png",
+	    	"http://5ivepints.com/proofs/web/csi2/wp-content/themes/csi2/images/sidebar/three.png",
+	    	"http://5ivepints.com/proofs/web/csi2/wp-content/themes/csi2/images/sidebar/four.png",
+	    	"http://5ivepints.com/proofs/web/csi2/wp-content/themes/csi2/images/sidebar/five.png"
+
+    	);
+
+	    var size = images.length;
+
+	    var x = Math.floor(size * Math.random());
+    	
+    	document.getElementById('random-sidebar-image').src = images[x];
+
+	}
+
+	window.onload = Randomize;
 
 </script>

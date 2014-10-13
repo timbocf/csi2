@@ -105,13 +105,13 @@
 
 				<div class="row">
 
-					<div class="searchform col-lg-7 col-lg-offset-5">
+					<div class="searchform">
 
 							<!-- <input type="search" class="search" placeholder="Search Here"> -->
 
 							<!-- <input type="button" class="button" value="Search" alt="Search"> -->
 
-							<form role="search" method="get" id="searchform" class="searchform" action="<?php echo get_home_url() ?>"> 
+							<form role="search" method="get" id="searchform" action="<?php echo get_home_url() ?>"> 
 								<!-- <label class="screen-reader-text" for="s">Search for:</label>  -->
 								<input type="search" class="search" name="s" id="s" placeholder="Search Here" /> 
 								<input type="submit" id="searchsubmit" value="Search" class="button" /> 
@@ -133,7 +133,7 @@
 
 					<!-- <img src="<?php bloginfo('template_directory') ?>/images/header-phone-link.png" alt="1-888-639-0388" title="1-888-639-0388"> -->
 
-					<!-- <h3>1 (888) 639-0388</h3> -->
+					<h3>1 (888) 639-0388</h3>
 
 				</a>
 
@@ -145,15 +145,15 @@
 
 					<li><a href="http://www.careerbuilder.com/employerprofile/companydetails.aspx?CompanyDID=CHS5GD629L3DTFLKSJT" class="careerbuilder">Careerbuilder</a></li>
 
-					<li><a href="https://www.facebook.com/ConstructionStrategiesInc" class="facebook">Facebook</a></li>
+					<li><a href="https://www.facebook.com/ConstructionStrategiesInc" class="facebook" target="_blank">Facebook</a></li>
 
-					<li><a href="https://twitter.com/CSI_Electrician" class="twitter">Twitter</a></li>
+					<li><a href="https://twitter.com/CSI_Electrician" class="twitter" target="_blank">Twitter</a></li>
 
-					<li><a href="https://plus.google.com/u/0/112354101551677739215/posts" class="google">Google+</a></li>
+					<li><a href="https://plus.google.com/u/0/112354101551677739215/posts" class="google" target="_blank">Google+</a></li>
 
-					<li><a href="http://constructionstrategiesinc.com/contact-us/" class="email">Email</a></li>
+					<li><a href="<?php echo get_home_url() ?>/contact-us/" class="email">Email</a></li>
 
-					<li><a href="http://constructionstrategiesinc.com/contact-us/" class="maps">Maps</a></li>
+					<li><a href="<?php echo get_home_url() ?>/contact-us/" class="maps">Maps</a></li>
 
 				</ul>
 

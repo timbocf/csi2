@@ -8,7 +8,7 @@
 
 			arrows: true,
 
-			autoplaySpeed: 3000
+			autoplaySpeed: 12000
 
 		});
 

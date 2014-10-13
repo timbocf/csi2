@@ -59,7 +59,7 @@
 					</div>
 
 					<div class="col-lg-3 col-xs-12 fivepints">
-						<a href="http://fivepints.com">Site by 5 Pints Productions</a>
+						<a href="http://fivepints.com" target="_blank">Site by 5 Pints Productions</a>
 					</div>
 				</footer><!-- footer -->
 

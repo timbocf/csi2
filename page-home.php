@@ -36,7 +36,7 @@
 
 				<div class="first">
 					<a href="<?php echo get_home_url() ?>/contractors/">
-						<img src="<?php bloginfo('template_directory') ?>/images/slider-overlay-1.gif" alt="Find Contractor Support" title="Find Contractor Support">
+						<img src="<?php bloginfo('template_directory') ?>/images/slider-overlay-1.png" alt="Find Contractor Support" title="Find Contractor Support">
 					</a>
 				</div>
 
@@ -80,7 +80,7 @@
 
 							</div>
 
-							<div id="collapseOne" class="panel-collapse collapse in">
+							<div id="collapseOne" class="panel-collapse collapse">
                 		
                 				<div class="panel-body">
 
@@ -201,7 +201,7 @@
 
 					</div>
 
-					<img src="<?php bloginfo('template_directory') ?>/images/wire.png" alt="wire" class="wire">
+					<img src="<?php bloginfo('template_directory') ?>/images/wire.jpg" alt="wire" class="wire">
 
 				</div><!-- home-bio -->
 

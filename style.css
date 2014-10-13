@@ -923,6 +923,12 @@ body {
 .searchform {
 	margin-top: 1em;
 	height: 1.5em;
+	position: relative;
+}
+
+.searchform #searchform {
+	position: absolute;
+	right: 15px;
 }
 
 .searchform input {
@@ -933,10 +939,6 @@ input[type="search"] {
 	/*background: #d1d3d4;*/
 }
 
-.searchform form {
-	width:500px;
-	/*margin:50px auto;*/
-}
 .searchform .search {
     padding:8px 15px !important;
     background:rgba(50, 50, 50, 0.2) !important;
@@ -969,6 +971,7 @@ input[type="search"]:focus {
 
 .header-phone-social {
 	padding-top: 2em;
+	position: relative;
 }
 
 .header-phone-social h3 {
@@ -994,6 +997,10 @@ input[type="search"]:focus {
 
 .social {
 	/*border: 1px solid #333;*/
+	margin-top: 7px;
+	position: absolute;
+	right: 0;
+	width: 500px;
 }
 
 .social ul {
@@ -1017,7 +1024,7 @@ input[type="search"]:focus {
 
 .careerbuilder {
 	width: 92px !important;
-	background-image: url(images/social.png);
+	/*background-image: url(images/social.png);*/
 	background-position: 0 -1px;
 }
 
@@ -1345,7 +1352,8 @@ nav.menu .sub-menu .menu-item a {
 	padding: 0;
 	/*overflow: hidden;*/
 
-	background-color: #96979a;
+	/*background-color: #96979a;*/
+	background-color: rgb(153,153,153);
 	background-image: url(images/left-column-background.png);
 	background-position: bottom left;
 	background-repeat: no-repeat;
@@ -1555,7 +1563,7 @@ h3.panel-title {
 }
 
 .home-bio .content {
-	width: 43em;
+	width: 42em;
 }
 
 .home-bio .wire {
@@ -1941,6 +1949,7 @@ RESPONSIVE - Media Queries
 
 	.sidebar-wrap {
 		border: none;
+		background: none;
 		padding-top: 2em;
 		margin: 0;
 	}
@@ -1950,7 +1959,7 @@ RESPONSIVE - Media Queries
 	}
 
 	.sidebar-links h2 {
-		font-size: 0.7em;
+		/*font-size: 0.7em;*/
 	}
 
 	.sidebar-links .craftsmen h2 {
